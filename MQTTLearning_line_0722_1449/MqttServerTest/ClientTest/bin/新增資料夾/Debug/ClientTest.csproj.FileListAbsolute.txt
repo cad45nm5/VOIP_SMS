@@ -1,0 +1,624 @@
+G:\mission\CSharpLearning\MQTTLearning\MqttServerTest\MqttServerTest\bin\Debug\MqttServerTest.exe.config
+G:\mission\CSharpLearning\MQTTLearning\MqttServerTest\MqttServerTest\bin\Debug\MqttServerTest.exe
+G:\mission\CSharpLearning\MQTTLearning\MqttServerTest\MqttServerTest\bin\Debug\MqttServerTest.pdb
+G:\mission\CSharpLearning\MQTTLearning\MqttServerTest\MqttServerTest\bin\Debug\MQTTnet.dll
+G:\mission\CSharpLearning\MQTTLearning\MqttServerTest\MqttServerTest\obj\Debug\ClientTest.csprojResolveAssemblyReference.cache
+G:\mission\CSharpLearning\MQTTLearning\MqttServerTest\MqttServerTest\obj\Debug\MqttServerTest.FormClient.resources
+G:\mission\CSharpLearning\MQTTLearning\MqttServerTest\MqttServerTest\obj\Debug\MqttServerTest.Properties.Resources.resources
+G:\mission\CSharpLearning\MQTTLearning\MqttServerTest\MqttServerTest\obj\Debug\ClientTest.csproj.GenerateResource.Cache
+G:\mission\CSharpLearning\MQTTLearning\MqttServerTest\MqttServerTest\obj\Debug\MqttServerTest.exe
+G:\mission\CSharpLearning\MQTTLearning\MqttServerTest\MqttServerTest\obj\Debug\MqttServerTest.pdb
+G:\mission\CSharpLearning\MQTTLearning\MqttServerTest\ClientTest\bin\Debug\MqttServerTest.exe.config
+G:\mission\CSharpLearning\MQTTLearning\MqttServerTest\ClientTest\bin\Debug\MqttServerTest.exe
+G:\mission\CSharpLearning\MQTTLearning\MqttServerTest\ClientTest\bin\Debug\MqttServerTest.pdb
+G:\mission\CSharpLearning\MQTTLearning\MqttServerTest\ClientTest\bin\Debug\MQTTnet.dll
+G:\mission\CSharpLearning\MQTTLearning\MqttServerTest\ClientTest\obj\Debug\ClientTest.csprojResolveAssemblyReference.cache
+G:\mission\CSharpLearning\MQTTLearning\MqttServerTest\ClientTest\obj\Debug\MqttServerTest.FormClient.resources
+G:\mission\CSharpLearning\MQTTLearning\MqttServerTest\ClientTest\obj\Debug\MqttServerTest.Properties.Resources.resources
+G:\mission\CSharpLearning\MQTTLearning\MqttServerTest\ClientTest\obj\Debug\ClientTest.csproj.GenerateResource.Cache
+G:\mission\CSharpLearning\MQTTLearning\MqttServerTest\ClientTest\obj\Debug\MqttServerTest.exe
+G:\mission\CSharpLearning\MQTTLearning\MqttServerTest\ClientTest\obj\Debug\MqttServerTest.pdb
+C:\Users\AMBER\Desktop\MQTTLearning-master\MqttServerTest\ClientTest\bin\Debug\MqttServerTest.exe.config
+C:\Users\AMBER\Desktop\MQTTLearning-master\MqttServerTest\ClientTest\bin\Debug\MqttServerTest.exe
+C:\Users\AMBER\Desktop\MQTTLearning-master\MqttServerTest\ClientTest\bin\Debug\LineBot.dll
+C:\Users\AMBER\Desktop\MQTTLearning-master\MqttServerTest\ClientTest\bin\Debug\MQTTnet.dll
+C:\Users\AMBER\Desktop\MQTTLearning-master\MqttServerTest\ClientTest\bin\Debug\LineBot.xml
+C:\Users\AMBER\Desktop\MQTTLearning-master\MqttServerTest\ClientTest\obj\Debug\ClientTest.csprojAssemblyReference.cache
+C:\Users\AMBER\Desktop\MQTTLearning-master\MqttServerTest\ClientTest\obj\Debug\MqttServerTest.FormClient.resources
+C:\Users\AMBER\Desktop\MQTTLearning-master\MqttServerTest\ClientTest\obj\Debug\MqttServerTest.Properties.Resources.resources
+C:\Users\AMBER\Desktop\MQTTLearning-master\MqttServerTest\ClientTest\obj\Debug\ClientTest.csproj.GenerateResource.cache
+C:\Users\AMBER\Desktop\MQTTLearning-master\MqttServerTest\ClientTest\obj\Debug\ClientTest.csproj.CopyComplete
+C:\Users\AMBER\Desktop\MQTTLearning-master\MqttServerTest\ClientTest\obj\Debug\MqttServerTest.exe
+C:\Users\AMBER\Desktop\MQTTLearning-master\MqttServerTest\ClientTest\obj\Debug\MqttServerTest.pdb
+C:\Users\AMBER\Desktop\MQTTLearning-master\MqttServerTest\ClientTest\bin\Debug\MqttServerTest.pdb
+D:\abao\line bot_MQTT\MQTTLearning_line_0407_1727\MqttServerTest\ClientTest\obj\Debug\ClientTest.csprojAssemblyReference.cache
+D:\abao\line bot_MQTT\MQTTLearning_line_0407_1727\MqttServerTest\ClientTest\obj\Debug\MqttServerTest.FormClient.resources
+D:\abao\line bot_MQTT\MQTTLearning_line_0407_1727\MqttServerTest\ClientTest\obj\Debug\MqttServerTest.Properties.Resources.resources
+D:\abao\line bot_MQTT\MQTTLearning_line_0407_1727\MqttServerTest\ClientTest\obj\Debug\ClientTest.csproj.GenerateResource.cache
+D:\abao\line bot_MQTT\MQTTLearning_line_0407_1727\MqttServerTest\ClientTest\obj\Debug\MqttServerTest.exe
+D:\abao\line bot_MQTT\MQTTLearning_line_0407_1727\MqttServerTest\ClientTest\obj\Debug\MqttServerTest.pdb
+D:\abao\line bot_MQTT\MQTTLearning_line_0407_1727\MqttServerTest\ClientTest\bin\Debug\MqttServerTest.exe.config
+D:\abao\line bot_MQTT\MQTTLearning_line_0407_1727\MqttServerTest\ClientTest\bin\Debug\MqttServerTest.exe
+D:\abao\line bot_MQTT\MQTTLearning_line_0407_1727\MqttServerTest\ClientTest\bin\Debug\MqttServerTest.pdb
+D:\abao\line bot_MQTT\MQTTLearning_line_0407_1727\MqttServerTest\ClientTest\bin\Debug\LineBot.dll
+D:\abao\line bot_MQTT\MQTTLearning_line_0407_1727\MqttServerTest\ClientTest\bin\Debug\MQTTnet.dll
+D:\abao\line bot_MQTT\MQTTLearning_line_0407_1727\MqttServerTest\ClientTest\bin\Debug\LineBot.xml
+D:\abao\line bot_MQTT\MQTTLearning_line_0407_1727\MqttServerTest\ClientTest\obj\Debug\ClientTest.csproj.CopyComplete
+D:\abao\line bot_MQTT\MQTTLearning_line_0407_1727\MqttServerTest\ClientTest\bin\Debug\Newtonsoft.Json.dll
+D:\abao\line bot_MQTT\MQTTLearning_line_0407_1727\MqttServerTest\ClientTest\bin\Debug\Newtonsoft.Json.xml
+D:\abao\line bot_MQTT\MQTTLearning_line_0407_1727\MqttServerTest\ClientTest\bin\Debug\x86\sqlite3.dll
+D:\abao\line bot_MQTT\MQTTLearning_line_0407_1727\MqttServerTest\ClientTest\bin\Debug\x64\sqlite3.dll
+D:\abao\line bot_MQTT\MQTTLearning_line_0407_1727\MqttServerTest\ClientTest\bin\Debug\EntityFramework.dll
+D:\abao\line bot_MQTT\MQTTLearning_line_0407_1727\MqttServerTest\ClientTest\bin\Debug\EntityFramework.SqlServer.dll
+D:\abao\line bot_MQTT\MQTTLearning_line_0407_1727\MqttServerTest\ClientTest\bin\Debug\System.Data.SQLite.dll
+D:\abao\line bot_MQTT\MQTTLearning_line_0407_1727\MqttServerTest\ClientTest\bin\Debug\System.Data.SQLite.EF6.dll
+D:\abao\line bot_MQTT\MQTTLearning_line_0407_1727\MqttServerTest\ClientTest\bin\Debug\System.Data.SQLite.Linq.dll
+D:\abao\line bot_MQTT\MQTTLearning_line_0407_1727\MqttServerTest\ClientTest\bin\Debug\EntityFramework.xml
+D:\abao\line bot_MQTT\MQTTLearning_line_0407_1727\MqttServerTest\ClientTest\bin\Debug\EntityFramework.SqlServer.xml
+D:\abao\line bot_MQTT\MQTTLearning_line_0407_1727\MqttServerTest\ClientTest\bin\Debug\System.Data.SQLite.xml
+D:\abao\line bot_MQTT\MQTTLearning_line_0407_1727\MqttServerTest\ClientTest\bin\Debug\System.Data.SQLite.dll.config
+D:\abao\line bot_MQTT\MQTTLearning_line_0410_1623\MqttServerTest\ClientTest\bin\Debug\x86\sqlite3.dll
+D:\abao\line bot_MQTT\MQTTLearning_line_0410_1623\MqttServerTest\ClientTest\bin\Debug\x64\sqlite3.dll
+D:\abao\line bot_MQTT\MQTTLearning_line_0410_1623\MqttServerTest\ClientTest\bin\Debug\MqttServerTest.exe.config
+D:\abao\line bot_MQTT\MQTTLearning_line_0410_1623\MqttServerTest\ClientTest\bin\Debug\MqttServerTest.exe
+D:\abao\line bot_MQTT\MQTTLearning_line_0410_1623\MqttServerTest\ClientTest\bin\Debug\MqttServerTest.pdb
+D:\abao\line bot_MQTT\MQTTLearning_line_0410_1623\MqttServerTest\ClientTest\bin\Debug\EntityFramework.dll
+D:\abao\line bot_MQTT\MQTTLearning_line_0410_1623\MqttServerTest\ClientTest\bin\Debug\EntityFramework.SqlServer.dll
+D:\abao\line bot_MQTT\MQTTLearning_line_0410_1623\MqttServerTest\ClientTest\bin\Debug\LineBot.dll
+D:\abao\line bot_MQTT\MQTTLearning_line_0410_1623\MqttServerTest\ClientTest\bin\Debug\MQTTnet.dll
+D:\abao\line bot_MQTT\MQTTLearning_line_0410_1623\MqttServerTest\ClientTest\bin\Debug\Newtonsoft.Json.dll
+D:\abao\line bot_MQTT\MQTTLearning_line_0410_1623\MqttServerTest\ClientTest\bin\Debug\System.Data.SQLite.dll
+D:\abao\line bot_MQTT\MQTTLearning_line_0410_1623\MqttServerTest\ClientTest\bin\Debug\System.Data.SQLite.EF6.dll
+D:\abao\line bot_MQTT\MQTTLearning_line_0410_1623\MqttServerTest\ClientTest\bin\Debug\System.Data.SQLite.Linq.dll
+D:\abao\line bot_MQTT\MQTTLearning_line_0410_1623\MqttServerTest\ClientTest\bin\Debug\EntityFramework.xml
+D:\abao\line bot_MQTT\MQTTLearning_line_0410_1623\MqttServerTest\ClientTest\bin\Debug\EntityFramework.SqlServer.xml
+D:\abao\line bot_MQTT\MQTTLearning_line_0410_1623\MqttServerTest\ClientTest\bin\Debug\LineBot.xml
+D:\abao\line bot_MQTT\MQTTLearning_line_0410_1623\MqttServerTest\ClientTest\bin\Debug\Newtonsoft.Json.xml
+D:\abao\line bot_MQTT\MQTTLearning_line_0410_1623\MqttServerTest\ClientTest\bin\Debug\System.Data.SQLite.xml
+D:\abao\line bot_MQTT\MQTTLearning_line_0410_1623\MqttServerTest\ClientTest\bin\Debug\System.Data.SQLite.dll.config
+D:\abao\line bot_MQTT\MQTTLearning_line_0410_1623\MqttServerTest\ClientTest\obj\Debug\ClientTest.csprojAssemblyReference.cache
+D:\abao\line bot_MQTT\MQTTLearning_line_0410_1623\MqttServerTest\ClientTest\obj\Debug\MqttServerTest.FormClient.resources
+D:\abao\line bot_MQTT\MQTTLearning_line_0410_1623\MqttServerTest\ClientTest\obj\Debug\MqttServerTest.Properties.Resources.resources
+D:\abao\line bot_MQTT\MQTTLearning_line_0410_1623\MqttServerTest\ClientTest\obj\Debug\ClientTest.csproj.GenerateResource.cache
+D:\abao\line bot_MQTT\MQTTLearning_line_0410_1623\MqttServerTest\ClientTest\obj\Debug\ClientTest.csproj.CopyComplete
+D:\abao\line bot_MQTT\MQTTLearning_line_0410_1623\MqttServerTest\ClientTest\obj\Debug\MqttServerTest.exe
+D:\abao\line bot_MQTT\MQTTLearning_line_0410_1623\MqttServerTest\ClientTest\obj\Debug\MqttServerTest.pdb
+D:\abao\line bot_MQTT\MQTTLearning_line_0410_1625\MqttServerTest\ClientTest\bin\Debug\x86\sqlite3.dll
+D:\abao\line bot_MQTT\MQTTLearning_line_0410_1625\MqttServerTest\ClientTest\bin\Debug\x64\sqlite3.dll
+D:\abao\line bot_MQTT\MQTTLearning_line_0410_1625\MqttServerTest\ClientTest\bin\Debug\MqttServerTest.exe.config
+D:\abao\line bot_MQTT\MQTTLearning_line_0410_1625\MqttServerTest\ClientTest\bin\Debug\MqttServerTest.exe
+D:\abao\line bot_MQTT\MQTTLearning_line_0410_1625\MqttServerTest\ClientTest\bin\Debug\MqttServerTest.pdb
+D:\abao\line bot_MQTT\MQTTLearning_line_0410_1625\MqttServerTest\ClientTest\bin\Debug\EntityFramework.dll
+D:\abao\line bot_MQTT\MQTTLearning_line_0410_1625\MqttServerTest\ClientTest\bin\Debug\EntityFramework.SqlServer.dll
+D:\abao\line bot_MQTT\MQTTLearning_line_0410_1625\MqttServerTest\ClientTest\bin\Debug\LineBot.dll
+D:\abao\line bot_MQTT\MQTTLearning_line_0410_1625\MqttServerTest\ClientTest\bin\Debug\MQTTnet.dll
+D:\abao\line bot_MQTT\MQTTLearning_line_0410_1625\MqttServerTest\ClientTest\bin\Debug\Newtonsoft.Json.dll
+D:\abao\line bot_MQTT\MQTTLearning_line_0410_1625\MqttServerTest\ClientTest\bin\Debug\System.Data.SQLite.dll
+D:\abao\line bot_MQTT\MQTTLearning_line_0410_1625\MqttServerTest\ClientTest\bin\Debug\System.Data.SQLite.EF6.dll
+D:\abao\line bot_MQTT\MQTTLearning_line_0410_1625\MqttServerTest\ClientTest\bin\Debug\System.Data.SQLite.Linq.dll
+D:\abao\line bot_MQTT\MQTTLearning_line_0410_1625\MqttServerTest\ClientTest\bin\Debug\EntityFramework.xml
+D:\abao\line bot_MQTT\MQTTLearning_line_0410_1625\MqttServerTest\ClientTest\bin\Debug\EntityFramework.SqlServer.xml
+D:\abao\line bot_MQTT\MQTTLearning_line_0410_1625\MqttServerTest\ClientTest\bin\Debug\LineBot.xml
+D:\abao\line bot_MQTT\MQTTLearning_line_0410_1625\MqttServerTest\ClientTest\bin\Debug\Newtonsoft.Json.xml
+D:\abao\line bot_MQTT\MQTTLearning_line_0410_1625\MqttServerTest\ClientTest\bin\Debug\System.Data.SQLite.xml
+D:\abao\line bot_MQTT\MQTTLearning_line_0410_1625\MqttServerTest\ClientTest\bin\Debug\System.Data.SQLite.dll.config
+D:\abao\line bot_MQTT\MQTTLearning_line_0410_1625\MqttServerTest\ClientTest\obj\Debug\ClientTest.csprojAssemblyReference.cache
+D:\abao\line bot_MQTT\MQTTLearning_line_0410_1625\MqttServerTest\ClientTest\obj\Debug\MqttServerTest.Properties.Resources.resources
+D:\abao\line bot_MQTT\MQTTLearning_line_0410_1625\MqttServerTest\ClientTest\obj\Debug\ClientTest.csproj.GenerateResource.cache
+D:\abao\line bot_MQTT\MQTTLearning_line_0410_1625\MqttServerTest\ClientTest\obj\Debug\ClientTest.csproj.CopyComplete
+D:\abao\line bot_MQTT\MQTTLearning_line_0410_1625\MqttServerTest\ClientTest\obj\Debug\MqttServerTest.exe
+D:\abao\line bot_MQTT\MQTTLearning_line_0410_1625\MqttServerTest\ClientTest\obj\Debug\MqttServerTest.pdb
+D:\abao\line bot_MQTT\MQTTLearning_line_0410_1625\MqttServerTest\ClientTest\obj\Debug\MqttServerTest.lineiot_0410_1625.resources
+D:\abao\line bot_MQTT\MQTTLearning_line_0413_1818\MqttServerTest\ClientTest\bin\Debug\x86\sqlite3.dll
+D:\abao\line bot_MQTT\MQTTLearning_line_0413_1818\MqttServerTest\ClientTest\bin\Debug\x64\sqlite3.dll
+D:\abao\line bot_MQTT\MQTTLearning_line_0413_1818\MqttServerTest\ClientTest\bin\Debug\MqttServerTest.exe.config
+D:\abao\line bot_MQTT\MQTTLearning_line_0413_1818\MqttServerTest\ClientTest\bin\Debug\MqttServerTest.exe
+D:\abao\line bot_MQTT\MQTTLearning_line_0413_1818\MqttServerTest\ClientTest\bin\Debug\MqttServerTest.pdb
+D:\abao\line bot_MQTT\MQTTLearning_line_0413_1818\MqttServerTest\ClientTest\bin\Debug\EntityFramework.dll
+D:\abao\line bot_MQTT\MQTTLearning_line_0413_1818\MqttServerTest\ClientTest\bin\Debug\EntityFramework.SqlServer.dll
+D:\abao\line bot_MQTT\MQTTLearning_line_0413_1818\MqttServerTest\ClientTest\bin\Debug\LineBot.dll
+D:\abao\line bot_MQTT\MQTTLearning_line_0413_1818\MqttServerTest\ClientTest\bin\Debug\MQTTnet.dll
+D:\abao\line bot_MQTT\MQTTLearning_line_0413_1818\MqttServerTest\ClientTest\bin\Debug\Newtonsoft.Json.dll
+D:\abao\line bot_MQTT\MQTTLearning_line_0413_1818\MqttServerTest\ClientTest\bin\Debug\System.Data.SQLite.dll
+D:\abao\line bot_MQTT\MQTTLearning_line_0413_1818\MqttServerTest\ClientTest\bin\Debug\System.Data.SQLite.EF6.dll
+D:\abao\line bot_MQTT\MQTTLearning_line_0413_1818\MqttServerTest\ClientTest\bin\Debug\System.Data.SQLite.Linq.dll
+D:\abao\line bot_MQTT\MQTTLearning_line_0413_1818\MqttServerTest\ClientTest\bin\Debug\EntityFramework.xml
+D:\abao\line bot_MQTT\MQTTLearning_line_0413_1818\MqttServerTest\ClientTest\bin\Debug\EntityFramework.SqlServer.xml
+D:\abao\line bot_MQTT\MQTTLearning_line_0413_1818\MqttServerTest\ClientTest\bin\Debug\LineBot.xml
+D:\abao\line bot_MQTT\MQTTLearning_line_0413_1818\MqttServerTest\ClientTest\bin\Debug\Newtonsoft.Json.xml
+D:\abao\line bot_MQTT\MQTTLearning_line_0413_1818\MqttServerTest\ClientTest\bin\Debug\System.Data.SQLite.xml
+D:\abao\line bot_MQTT\MQTTLearning_line_0413_1818\MqttServerTest\ClientTest\bin\Debug\System.Data.SQLite.dll.config
+D:\abao\line bot_MQTT\MQTTLearning_line_0413_1818\MqttServerTest\ClientTest\obj\Debug\ClientTest.csprojAssemblyReference.cache
+D:\abao\line bot_MQTT\MQTTLearning_line_0413_1818\MqttServerTest\ClientTest\obj\Debug\MqttServerTest.Properties.Resources.resources
+D:\abao\line bot_MQTT\MQTTLearning_line_0413_1818\MqttServerTest\ClientTest\obj\Debug\ClientTest.csproj.GenerateResource.cache
+D:\abao\line bot_MQTT\MQTTLearning_line_0413_1818\MqttServerTest\ClientTest\obj\Debug\ClientTest.csproj.CopyComplete
+D:\abao\line bot_MQTT\MQTTLearning_line_0413_1818\MqttServerTest\ClientTest\obj\Debug\MqttServerTest.exe
+D:\abao\line bot_MQTT\MQTTLearning_line_0413_1818\MqttServerTest\ClientTest\obj\Debug\MqttServerTest.pdb
+D:\abao\line bot_MQTT\MQTTLearning_line_0413_1818\MqttServerTest\ClientTest\obj\Debug\MqttServerTest.lineiot_0414_1753.resources
+D:\abao\line bot_MQTT\MQTTLearning_line_0414_1753\MqttServerTest\ClientTest\bin\Debug\x86\sqlite3.dll
+D:\abao\line bot_MQTT\MQTTLearning_line_0414_1753\MqttServerTest\ClientTest\bin\Debug\x64\sqlite3.dll
+D:\abao\line bot_MQTT\MQTTLearning_line_0414_1753\MqttServerTest\ClientTest\bin\Debug\MqttServerTest.exe.config
+D:\abao\line bot_MQTT\MQTTLearning_line_0414_1753\MqttServerTest\ClientTest\bin\Debug\MqttServerTest.exe
+D:\abao\line bot_MQTT\MQTTLearning_line_0414_1753\MqttServerTest\ClientTest\bin\Debug\MqttServerTest.pdb
+D:\abao\line bot_MQTT\MQTTLearning_line_0414_1753\MqttServerTest\ClientTest\bin\Debug\EntityFramework.dll
+D:\abao\line bot_MQTT\MQTTLearning_line_0414_1753\MqttServerTest\ClientTest\bin\Debug\EntityFramework.SqlServer.dll
+D:\abao\line bot_MQTT\MQTTLearning_line_0414_1753\MqttServerTest\ClientTest\bin\Debug\LineBot.dll
+D:\abao\line bot_MQTT\MQTTLearning_line_0414_1753\MqttServerTest\ClientTest\bin\Debug\MQTTnet.dll
+D:\abao\line bot_MQTT\MQTTLearning_line_0414_1753\MqttServerTest\ClientTest\bin\Debug\Newtonsoft.Json.dll
+D:\abao\line bot_MQTT\MQTTLearning_line_0414_1753\MqttServerTest\ClientTest\bin\Debug\System.Data.SQLite.dll
+D:\abao\line bot_MQTT\MQTTLearning_line_0414_1753\MqttServerTest\ClientTest\bin\Debug\System.Data.SQLite.EF6.dll
+D:\abao\line bot_MQTT\MQTTLearning_line_0414_1753\MqttServerTest\ClientTest\bin\Debug\System.Data.SQLite.Linq.dll
+D:\abao\line bot_MQTT\MQTTLearning_line_0414_1753\MqttServerTest\ClientTest\bin\Debug\EntityFramework.xml
+D:\abao\line bot_MQTT\MQTTLearning_line_0414_1753\MqttServerTest\ClientTest\bin\Debug\EntityFramework.SqlServer.xml
+D:\abao\line bot_MQTT\MQTTLearning_line_0414_1753\MqttServerTest\ClientTest\bin\Debug\LineBot.xml
+D:\abao\line bot_MQTT\MQTTLearning_line_0414_1753\MqttServerTest\ClientTest\bin\Debug\Newtonsoft.Json.xml
+D:\abao\line bot_MQTT\MQTTLearning_line_0414_1753\MqttServerTest\ClientTest\bin\Debug\System.Data.SQLite.xml
+D:\abao\line bot_MQTT\MQTTLearning_line_0414_1753\MqttServerTest\ClientTest\bin\Debug\System.Data.SQLite.dll.config
+D:\abao\line bot_MQTT\MQTTLearning_line_0414_1753\MqttServerTest\ClientTest\obj\Debug\ClientTest.csprojAssemblyReference.cache
+D:\abao\line bot_MQTT\MQTTLearning_line_0414_1753\MqttServerTest\ClientTest\obj\Debug\MqttServerTest.lineiot_0414_1753.resources
+D:\abao\line bot_MQTT\MQTTLearning_line_0414_1753\MqttServerTest\ClientTest\obj\Debug\MqttServerTest.Properties.Resources.resources
+D:\abao\line bot_MQTT\MQTTLearning_line_0414_1753\MqttServerTest\ClientTest\obj\Debug\ClientTest.csproj.GenerateResource.cache
+D:\abao\line bot_MQTT\MQTTLearning_line_0414_1753\MqttServerTest\ClientTest\obj\Debug\ClientTest.csproj.CopyComplete
+D:\abao\line bot_MQTT\MQTTLearning_line_0414_1753\MqttServerTest\ClientTest\obj\Debug\MqttServerTest.exe
+D:\abao\line bot_MQTT\MQTTLearning_line_0414_1753\MqttServerTest\ClientTest\obj\Debug\MqttServerTest.pdb
+D:\abao\line bot_MQTT\MQTTLearning_line_0415_1757\MqttServerTest\ClientTest\bin\Debug\x86\sqlite3.dll
+D:\abao\line bot_MQTT\MQTTLearning_line_0415_1757\MqttServerTest\ClientTest\bin\Debug\x64\sqlite3.dll
+D:\abao\line bot_MQTT\MQTTLearning_line_0415_1757\MqttServerTest\ClientTest\bin\Debug\MqttServerTest.exe.config
+D:\abao\line bot_MQTT\MQTTLearning_line_0415_1757\MqttServerTest\ClientTest\bin\Debug\MqttServerTest.exe
+D:\abao\line bot_MQTT\MQTTLearning_line_0415_1757\MqttServerTest\ClientTest\bin\Debug\MqttServerTest.pdb
+D:\abao\line bot_MQTT\MQTTLearning_line_0415_1757\MqttServerTest\ClientTest\bin\Debug\EntityFramework.dll
+D:\abao\line bot_MQTT\MQTTLearning_line_0415_1757\MqttServerTest\ClientTest\bin\Debug\EntityFramework.SqlServer.dll
+D:\abao\line bot_MQTT\MQTTLearning_line_0415_1757\MqttServerTest\ClientTest\bin\Debug\LineBot.dll
+D:\abao\line bot_MQTT\MQTTLearning_line_0415_1757\MqttServerTest\ClientTest\bin\Debug\MQTTnet.dll
+D:\abao\line bot_MQTT\MQTTLearning_line_0415_1757\MqttServerTest\ClientTest\bin\Debug\Newtonsoft.Json.dll
+D:\abao\line bot_MQTT\MQTTLearning_line_0415_1757\MqttServerTest\ClientTest\bin\Debug\System.Data.SQLite.dll
+D:\abao\line bot_MQTT\MQTTLearning_line_0415_1757\MqttServerTest\ClientTest\bin\Debug\System.Data.SQLite.EF6.dll
+D:\abao\line bot_MQTT\MQTTLearning_line_0415_1757\MqttServerTest\ClientTest\bin\Debug\System.Data.SQLite.Linq.dll
+D:\abao\line bot_MQTT\MQTTLearning_line_0415_1757\MqttServerTest\ClientTest\bin\Debug\EntityFramework.xml
+D:\abao\line bot_MQTT\MQTTLearning_line_0415_1757\MqttServerTest\ClientTest\bin\Debug\EntityFramework.SqlServer.xml
+D:\abao\line bot_MQTT\MQTTLearning_line_0415_1757\MqttServerTest\ClientTest\bin\Debug\LineBot.xml
+D:\abao\line bot_MQTT\MQTTLearning_line_0415_1757\MqttServerTest\ClientTest\bin\Debug\Newtonsoft.Json.xml
+D:\abao\line bot_MQTT\MQTTLearning_line_0415_1757\MqttServerTest\ClientTest\bin\Debug\System.Data.SQLite.xml
+D:\abao\line bot_MQTT\MQTTLearning_line_0415_1757\MqttServerTest\ClientTest\bin\Debug\System.Data.SQLite.dll.config
+D:\abao\line bot_MQTT\MQTTLearning_line_0415_1757\MqttServerTest\ClientTest\obj\Debug\ClientTest.csprojAssemblyReference.cache
+D:\abao\line bot_MQTT\MQTTLearning_line_0415_1757\MqttServerTest\ClientTest\obj\Debug\MqttServerTest.lineiot_0414_1753.resources
+D:\abao\line bot_MQTT\MQTTLearning_line_0415_1757\MqttServerTest\ClientTest\obj\Debug\MqttServerTest.Properties.Resources.resources
+D:\abao\line bot_MQTT\MQTTLearning_line_0415_1757\MqttServerTest\ClientTest\obj\Debug\ClientTest.csproj.GenerateResource.cache
+D:\abao\line bot_MQTT\MQTTLearning_line_0415_1757\MqttServerTest\ClientTest\obj\Debug\ClientTest.csproj.CopyComplete
+D:\abao\line bot_MQTT\MQTTLearning_line_0415_1757\MqttServerTest\ClientTest\obj\Debug\MqttServerTest.exe
+D:\abao\line bot_MQTT\MQTTLearning_line_0415_1757\MqttServerTest\ClientTest\obj\Debug\MqttServerTest.pdb
+D:\abao\line bot_MQTT\MQTTLearning_line_0416_1804\MqttServerTest\ClientTest\bin\Debug\x86\sqlite3.dll
+D:\abao\line bot_MQTT\MQTTLearning_line_0416_1804\MqttServerTest\ClientTest\bin\Debug\x64\sqlite3.dll
+D:\abao\line bot_MQTT\MQTTLearning_line_0416_1804\MqttServerTest\ClientTest\bin\Debug\MqttServerTest.exe.config
+D:\abao\line bot_MQTT\MQTTLearning_line_0416_1804\MqttServerTest\ClientTest\bin\Debug\MqttServerTest.exe
+D:\abao\line bot_MQTT\MQTTLearning_line_0416_1804\MqttServerTest\ClientTest\bin\Debug\MqttServerTest.pdb
+D:\abao\line bot_MQTT\MQTTLearning_line_0416_1804\MqttServerTest\ClientTest\bin\Debug\EntityFramework.dll
+D:\abao\line bot_MQTT\MQTTLearning_line_0416_1804\MqttServerTest\ClientTest\bin\Debug\EntityFramework.SqlServer.dll
+D:\abao\line bot_MQTT\MQTTLearning_line_0416_1804\MqttServerTest\ClientTest\bin\Debug\LineBot.dll
+D:\abao\line bot_MQTT\MQTTLearning_line_0416_1804\MqttServerTest\ClientTest\bin\Debug\MQTTnet.dll
+D:\abao\line bot_MQTT\MQTTLearning_line_0416_1804\MqttServerTest\ClientTest\bin\Debug\Newtonsoft.Json.dll
+D:\abao\line bot_MQTT\MQTTLearning_line_0416_1804\MqttServerTest\ClientTest\bin\Debug\System.Data.SQLite.dll
+D:\abao\line bot_MQTT\MQTTLearning_line_0416_1804\MqttServerTest\ClientTest\bin\Debug\System.Data.SQLite.EF6.dll
+D:\abao\line bot_MQTT\MQTTLearning_line_0416_1804\MqttServerTest\ClientTest\bin\Debug\System.Data.SQLite.Linq.dll
+D:\abao\line bot_MQTT\MQTTLearning_line_0416_1804\MqttServerTest\ClientTest\bin\Debug\EntityFramework.xml
+D:\abao\line bot_MQTT\MQTTLearning_line_0416_1804\MqttServerTest\ClientTest\bin\Debug\EntityFramework.SqlServer.xml
+D:\abao\line bot_MQTT\MQTTLearning_line_0416_1804\MqttServerTest\ClientTest\bin\Debug\LineBot.xml
+D:\abao\line bot_MQTT\MQTTLearning_line_0416_1804\MqttServerTest\ClientTest\bin\Debug\Newtonsoft.Json.xml
+D:\abao\line bot_MQTT\MQTTLearning_line_0416_1804\MqttServerTest\ClientTest\bin\Debug\System.Data.SQLite.xml
+D:\abao\line bot_MQTT\MQTTLearning_line_0416_1804\MqttServerTest\ClientTest\bin\Debug\System.Data.SQLite.dll.config
+D:\abao\line bot_MQTT\MQTTLearning_line_0416_1804\MqttServerTest\ClientTest\obj\Debug\ClientTest.csprojAssemblyReference.cache
+D:\abao\line bot_MQTT\MQTTLearning_line_0416_1804\MqttServerTest\ClientTest\obj\Debug\MqttServerTest.lineiot_0414_1753.resources
+D:\abao\line bot_MQTT\MQTTLearning_line_0416_1804\MqttServerTest\ClientTest\obj\Debug\MqttServerTest.Properties.Resources.resources
+D:\abao\line bot_MQTT\MQTTLearning_line_0416_1804\MqttServerTest\ClientTest\obj\Debug\ClientTest.csproj.GenerateResource.cache
+D:\abao\line bot_MQTT\MQTTLearning_line_0416_1804\MqttServerTest\ClientTest\obj\Debug\ClientTest.csproj.CopyComplete
+D:\abao\line bot_MQTT\MQTTLearning_line_0416_1804\MqttServerTest\ClientTest\obj\Debug\MqttServerTest.exe
+D:\abao\line bot_MQTT\MQTTLearning_line_0416_1804\MqttServerTest\ClientTest\obj\Debug\MqttServerTest.pdb
+D:\abao\line bot_MQTT\MQTTLearning_line_0420_1031\MqttServerTest\ClientTest\obj\Debug\ClientTest.csprojAssemblyReference.cache
+D:\abao\line bot_MQTT\MQTTLearning_line_0420_1031\MqttServerTest\ClientTest\obj\Debug\MqttServerTest.lineiot_0414_1753.resources
+D:\abao\line bot_MQTT\MQTTLearning_line_0420_1031\MqttServerTest\ClientTest\obj\Debug\MqttServerTest.Properties.Resources.resources
+D:\abao\line bot_MQTT\MQTTLearning_line_0420_1031\MqttServerTest\ClientTest\obj\Debug\ClientTest.csproj.GenerateResource.cache
+D:\abao\line bot_MQTT\MQTTLearning_line_0420_1031\MqttServerTest\ClientTest\obj\Debug\MqttServerTest.exe
+D:\abao\line bot_MQTT\MQTTLearning_line_0420_1031\MqttServerTest\ClientTest\obj\Debug\MqttServerTest.pdb
+D:\abao\line bot_MQTT\MQTTLearning_line_0420_1031\MqttServerTest\ClientTest\bin\Debug\x86\sqlite3.dll
+D:\abao\line bot_MQTT\MQTTLearning_line_0420_1031\MqttServerTest\ClientTest\bin\Debug\x64\sqlite3.dll
+D:\abao\line bot_MQTT\MQTTLearning_line_0420_1031\MqttServerTest\ClientTest\bin\Debug\MqttServerTest.exe.config
+D:\abao\line bot_MQTT\MQTTLearning_line_0420_1031\MqttServerTest\ClientTest\bin\Debug\MqttServerTest.exe
+D:\abao\line bot_MQTT\MQTTLearning_line_0420_1031\MqttServerTest\ClientTest\bin\Debug\MqttServerTest.pdb
+D:\abao\line bot_MQTT\MQTTLearning_line_0420_1031\MqttServerTest\ClientTest\bin\Debug\EntityFramework.dll
+D:\abao\line bot_MQTT\MQTTLearning_line_0420_1031\MqttServerTest\ClientTest\bin\Debug\EntityFramework.SqlServer.dll
+D:\abao\line bot_MQTT\MQTTLearning_line_0420_1031\MqttServerTest\ClientTest\bin\Debug\LineBot.dll
+D:\abao\line bot_MQTT\MQTTLearning_line_0420_1031\MqttServerTest\ClientTest\bin\Debug\MQTTnet.dll
+D:\abao\line bot_MQTT\MQTTLearning_line_0420_1031\MqttServerTest\ClientTest\bin\Debug\Newtonsoft.Json.dll
+D:\abao\line bot_MQTT\MQTTLearning_line_0420_1031\MqttServerTest\ClientTest\bin\Debug\System.Data.SQLite.dll
+D:\abao\line bot_MQTT\MQTTLearning_line_0420_1031\MqttServerTest\ClientTest\bin\Debug\System.Data.SQLite.EF6.dll
+D:\abao\line bot_MQTT\MQTTLearning_line_0420_1031\MqttServerTest\ClientTest\bin\Debug\System.Data.SQLite.Linq.dll
+D:\abao\line bot_MQTT\MQTTLearning_line_0420_1031\MqttServerTest\ClientTest\bin\Debug\EntityFramework.xml
+D:\abao\line bot_MQTT\MQTTLearning_line_0420_1031\MqttServerTest\ClientTest\bin\Debug\EntityFramework.SqlServer.xml
+D:\abao\line bot_MQTT\MQTTLearning_line_0420_1031\MqttServerTest\ClientTest\bin\Debug\LineBot.xml
+D:\abao\line bot_MQTT\MQTTLearning_line_0420_1031\MqttServerTest\ClientTest\bin\Debug\Newtonsoft.Json.xml
+D:\abao\line bot_MQTT\MQTTLearning_line_0420_1031\MqttServerTest\ClientTest\bin\Debug\System.Data.SQLite.xml
+D:\abao\line bot_MQTT\MQTTLearning_line_0420_1031\MqttServerTest\ClientTest\bin\Debug\System.Data.SQLite.dll.config
+D:\abao\line bot_MQTT\MQTTLearning_line_0420_1031\MqttServerTest\ClientTest\obj\Debug\ClientTest.csproj.CopyComplete
+D:\abao\line bot_MQTT\MQTTLearning_line_server_0420_1031\MqttServerTest\ClientTest\obj\Debug\ClientTest.csprojAssemblyReference.cache
+D:\abao\line bot_MQTT\MQTTLearning_line_server_0420_1031\MqttServerTest\ClientTest\obj\Debug\MqttServerTest.lineiot_0414_1753.resources
+D:\abao\line bot_MQTT\MQTTLearning_line_server_0420_1031\MqttServerTest\ClientTest\obj\Debug\MqttServerTest.Properties.Resources.resources
+D:\abao\line bot_MQTT\MQTTLearning_line_server_0420_1031\MqttServerTest\ClientTest\obj\Debug\ClientTest.csproj.GenerateResource.cache
+D:\abao\line bot_MQTT\MQTTLearning_line_server_0420_1031\MqttServerTest\ClientTest\obj\Debug\MqttServerTest.exe
+D:\abao\line bot_MQTT\MQTTLearning_line_server_0420_1031\MqttServerTest\ClientTest\obj\Debug\MqttServerTest.pdb
+D:\abao\line bot_MQTT\MQTTLearning_line_server_0420_1031\MqttServerTest\ClientTest\bin\Debug\x86\sqlite3.dll
+D:\abao\line bot_MQTT\MQTTLearning_line_server_0420_1031\MqttServerTest\ClientTest\bin\Debug\x64\sqlite3.dll
+D:\abao\line bot_MQTT\MQTTLearning_line_server_0420_1031\MqttServerTest\ClientTest\bin\Debug\MqttServerTest.exe.config
+D:\abao\line bot_MQTT\MQTTLearning_line_server_0420_1031\MqttServerTest\ClientTest\bin\Debug\MqttServerTest.exe
+D:\abao\line bot_MQTT\MQTTLearning_line_server_0420_1031\MqttServerTest\ClientTest\bin\Debug\MqttServerTest.pdb
+D:\abao\line bot_MQTT\MQTTLearning_line_server_0420_1031\MqttServerTest\ClientTest\bin\Debug\EntityFramework.dll
+D:\abao\line bot_MQTT\MQTTLearning_line_server_0420_1031\MqttServerTest\ClientTest\bin\Debug\EntityFramework.SqlServer.dll
+D:\abao\line bot_MQTT\MQTTLearning_line_server_0420_1031\MqttServerTest\ClientTest\bin\Debug\LineBot.dll
+D:\abao\line bot_MQTT\MQTTLearning_line_server_0420_1031\MqttServerTest\ClientTest\bin\Debug\MQTTnet.dll
+D:\abao\line bot_MQTT\MQTTLearning_line_server_0420_1031\MqttServerTest\ClientTest\bin\Debug\Newtonsoft.Json.dll
+D:\abao\line bot_MQTT\MQTTLearning_line_server_0420_1031\MqttServerTest\ClientTest\bin\Debug\System.Data.SQLite.dll
+D:\abao\line bot_MQTT\MQTTLearning_line_server_0420_1031\MqttServerTest\ClientTest\bin\Debug\System.Data.SQLite.EF6.dll
+D:\abao\line bot_MQTT\MQTTLearning_line_server_0420_1031\MqttServerTest\ClientTest\bin\Debug\System.Data.SQLite.Linq.dll
+D:\abao\line bot_MQTT\MQTTLearning_line_server_0420_1031\MqttServerTest\ClientTest\bin\Debug\EntityFramework.xml
+D:\abao\line bot_MQTT\MQTTLearning_line_server_0420_1031\MqttServerTest\ClientTest\bin\Debug\EntityFramework.SqlServer.xml
+D:\abao\line bot_MQTT\MQTTLearning_line_server_0420_1031\MqttServerTest\ClientTest\bin\Debug\LineBot.xml
+D:\abao\line bot_MQTT\MQTTLearning_line_server_0420_1031\MqttServerTest\ClientTest\bin\Debug\Newtonsoft.Json.xml
+D:\abao\line bot_MQTT\MQTTLearning_line_server_0420_1031\MqttServerTest\ClientTest\bin\Debug\System.Data.SQLite.xml
+D:\abao\line bot_MQTT\MQTTLearning_line_server_0420_1031\MqttServerTest\ClientTest\bin\Debug\System.Data.SQLite.dll.config
+D:\abao\line bot_MQTT\MQTTLearning_line_server_0420_1031\MqttServerTest\ClientTest\obj\Debug\ClientTest.csproj.CopyComplete
+D:\abao\line bot_MQTT\MQTTLearning_line_0421_0942\MqttServerTest\ClientTest\bin\Debug\x86\sqlite3.dll
+D:\abao\line bot_MQTT\MQTTLearning_line_0421_0942\MqttServerTest\ClientTest\bin\Debug\x64\sqlite3.dll
+D:\abao\line bot_MQTT\MQTTLearning_line_0421_0942\MqttServerTest\ClientTest\bin\Debug\MqttServerTest.exe.config
+D:\abao\line bot_MQTT\MQTTLearning_line_0421_0942\MqttServerTest\ClientTest\bin\Debug\MqttServerTest.exe
+D:\abao\line bot_MQTT\MQTTLearning_line_0421_0942\MqttServerTest\ClientTest\bin\Debug\MqttServerTest.pdb
+D:\abao\line bot_MQTT\MQTTLearning_line_0421_0942\MqttServerTest\ClientTest\bin\Debug\EntityFramework.dll
+D:\abao\line bot_MQTT\MQTTLearning_line_0421_0942\MqttServerTest\ClientTest\bin\Debug\EntityFramework.SqlServer.dll
+D:\abao\line bot_MQTT\MQTTLearning_line_0421_0942\MqttServerTest\ClientTest\bin\Debug\LineBot.dll
+D:\abao\line bot_MQTT\MQTTLearning_line_0421_0942\MqttServerTest\ClientTest\bin\Debug\MQTTnet.dll
+D:\abao\line bot_MQTT\MQTTLearning_line_0421_0942\MqttServerTest\ClientTest\bin\Debug\Newtonsoft.Json.dll
+D:\abao\line bot_MQTT\MQTTLearning_line_0421_0942\MqttServerTest\ClientTest\bin\Debug\System.Data.SQLite.dll
+D:\abao\line bot_MQTT\MQTTLearning_line_0421_0942\MqttServerTest\ClientTest\bin\Debug\System.Data.SQLite.EF6.dll
+D:\abao\line bot_MQTT\MQTTLearning_line_0421_0942\MqttServerTest\ClientTest\bin\Debug\System.Data.SQLite.Linq.dll
+D:\abao\line bot_MQTT\MQTTLearning_line_0421_0942\MqttServerTest\ClientTest\bin\Debug\EntityFramework.xml
+D:\abao\line bot_MQTT\MQTTLearning_line_0421_0942\MqttServerTest\ClientTest\bin\Debug\EntityFramework.SqlServer.xml
+D:\abao\line bot_MQTT\MQTTLearning_line_0421_0942\MqttServerTest\ClientTest\bin\Debug\LineBot.xml
+D:\abao\line bot_MQTT\MQTTLearning_line_0421_0942\MqttServerTest\ClientTest\bin\Debug\Newtonsoft.Json.xml
+D:\abao\line bot_MQTT\MQTTLearning_line_0421_0942\MqttServerTest\ClientTest\bin\Debug\System.Data.SQLite.xml
+D:\abao\line bot_MQTT\MQTTLearning_line_0421_0942\MqttServerTest\ClientTest\bin\Debug\System.Data.SQLite.dll.config
+D:\abao\line bot_MQTT\MQTTLearning_line_0421_0942\MqttServerTest\ClientTest\obj\Debug\ClientTest.csprojAssemblyReference.cache
+D:\abao\line bot_MQTT\MQTTLearning_line_0421_0942\MqttServerTest\ClientTest\obj\Debug\MqttServerTest.lineiot_0414_1753.resources
+D:\abao\line bot_MQTT\MQTTLearning_line_0421_0942\MqttServerTest\ClientTest\obj\Debug\MqttServerTest.Properties.Resources.resources
+D:\abao\line bot_MQTT\MQTTLearning_line_0421_0942\MqttServerTest\ClientTest\obj\Debug\ClientTest.csproj.GenerateResource.cache
+D:\abao\line bot_MQTT\MQTTLearning_line_0421_0942\MqttServerTest\ClientTest\obj\Debug\ClientTest.csproj.CopyComplete
+D:\abao\line bot_MQTT\MQTTLearning_line_0421_0942\MqttServerTest\ClientTest\obj\Debug\MqttServerTest.exe
+D:\abao\line bot_MQTT\MQTTLearning_line_0421_0942\MqttServerTest\ClientTest\obj\Debug\MqttServerTest.pdb
+C:\Users\samchou\Desktop\code\MQTTLearning_line_0421_0942\MQTTLearning_line_0421_0942\MqttServerTest\ClientTest\bin\Debug\x86\sqlite3.dll
+C:\Users\samchou\Desktop\code\MQTTLearning_line_0421_0942\MQTTLearning_line_0421_0942\MqttServerTest\ClientTest\bin\Debug\x64\sqlite3.dll
+C:\Users\samchou\Desktop\code\MQTTLearning_line_0421_0942\MQTTLearning_line_0421_0942\MqttServerTest\ClientTest\bin\Debug\MqttServerTest.exe.config
+C:\Users\samchou\Desktop\code\MQTTLearning_line_0421_0942\MQTTLearning_line_0421_0942\MqttServerTest\ClientTest\bin\Debug\MqttServerTest.exe
+C:\Users\samchou\Desktop\code\MQTTLearning_line_0421_0942\MQTTLearning_line_0421_0942\MqttServerTest\ClientTest\bin\Debug\MqttServerTest.pdb
+C:\Users\samchou\Desktop\code\MQTTLearning_line_0421_0942\MQTTLearning_line_0421_0942\MqttServerTest\ClientTest\bin\Debug\EntityFramework.dll
+C:\Users\samchou\Desktop\code\MQTTLearning_line_0421_0942\MQTTLearning_line_0421_0942\MqttServerTest\ClientTest\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\samchou\Desktop\code\MQTTLearning_line_0421_0942\MQTTLearning_line_0421_0942\MqttServerTest\ClientTest\bin\Debug\LineBot.dll
+C:\Users\samchou\Desktop\code\MQTTLearning_line_0421_0942\MQTTLearning_line_0421_0942\MqttServerTest\ClientTest\bin\Debug\MQTTnet.dll
+C:\Users\samchou\Desktop\code\MQTTLearning_line_0421_0942\MQTTLearning_line_0421_0942\MqttServerTest\ClientTest\bin\Debug\Newtonsoft.Json.dll
+C:\Users\samchou\Desktop\code\MQTTLearning_line_0421_0942\MQTTLearning_line_0421_0942\MqttServerTest\ClientTest\bin\Debug\System.Data.SQLite.dll
+C:\Users\samchou\Desktop\code\MQTTLearning_line_0421_0942\MQTTLearning_line_0421_0942\MqttServerTest\ClientTest\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\samchou\Desktop\code\MQTTLearning_line_0421_0942\MQTTLearning_line_0421_0942\MqttServerTest\ClientTest\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\samchou\Desktop\code\MQTTLearning_line_0421_0942\MQTTLearning_line_0421_0942\MqttServerTest\ClientTest\bin\Debug\EntityFramework.xml
+C:\Users\samchou\Desktop\code\MQTTLearning_line_0421_0942\MQTTLearning_line_0421_0942\MqttServerTest\ClientTest\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\samchou\Desktop\code\MQTTLearning_line_0421_0942\MQTTLearning_line_0421_0942\MqttServerTest\ClientTest\bin\Debug\LineBot.xml
+C:\Users\samchou\Desktop\code\MQTTLearning_line_0421_0942\MQTTLearning_line_0421_0942\MqttServerTest\ClientTest\bin\Debug\Newtonsoft.Json.xml
+C:\Users\samchou\Desktop\code\MQTTLearning_line_0421_0942\MQTTLearning_line_0421_0942\MqttServerTest\ClientTest\bin\Debug\System.Data.SQLite.xml
+C:\Users\samchou\Desktop\code\MQTTLearning_line_0421_0942\MQTTLearning_line_0421_0942\MqttServerTest\ClientTest\bin\Debug\System.Data.SQLite.dll.config
+C:\Users\samchou\Desktop\code\MQTTLearning_line_0421_0942\MQTTLearning_line_0421_0942\MqttServerTest\ClientTest\obj\Debug\ClientTest.csprojAssemblyReference.cache
+C:\Users\samchou\Desktop\code\MQTTLearning_line_0421_0942\MQTTLearning_line_0421_0942\MqttServerTest\ClientTest\obj\Debug\MqttServerTest.lineiot_0414_1753.resources
+C:\Users\samchou\Desktop\code\MQTTLearning_line_0421_0942\MQTTLearning_line_0421_0942\MqttServerTest\ClientTest\obj\Debug\MqttServerTest.Properties.Resources.resources
+C:\Users\samchou\Desktop\code\MQTTLearning_line_0421_0942\MQTTLearning_line_0421_0942\MqttServerTest\ClientTest\obj\Debug\ClientTest.csproj.GenerateResource.cache
+C:\Users\samchou\Desktop\code\MQTTLearning_line_0421_0942\MQTTLearning_line_0421_0942\MqttServerTest\ClientTest\obj\Debug\ClientTest.csproj.CopyComplete
+C:\Users\samchou\Desktop\code\MQTTLearning_line_0421_0942\MQTTLearning_line_0421_0942\MqttServerTest\ClientTest\obj\Debug\MqttServerTest.exe
+C:\Users\samchou\Desktop\code\MQTTLearning_line_0421_0942\MQTTLearning_line_0421_0942\MqttServerTest\ClientTest\obj\Debug\MqttServerTest.pdb
+D:\abao\line bot_MQTT\MQTTLearning_line_0421_1657\MqttServerTest\ClientTest\bin\Debug\x86\sqlite3.dll
+D:\abao\line bot_MQTT\MQTTLearning_line_0421_1657\MqttServerTest\ClientTest\bin\Debug\x64\sqlite3.dll
+D:\abao\line bot_MQTT\MQTTLearning_line_0421_1657\MqttServerTest\ClientTest\bin\Debug\MqttServerTest.exe.config
+D:\abao\line bot_MQTT\MQTTLearning_line_0421_1657\MqttServerTest\ClientTest\bin\Debug\MqttServerTest.exe
+D:\abao\line bot_MQTT\MQTTLearning_line_0421_1657\MqttServerTest\ClientTest\bin\Debug\MqttServerTest.pdb
+D:\abao\line bot_MQTT\MQTTLearning_line_0421_1657\MqttServerTest\ClientTest\bin\Debug\EntityFramework.dll
+D:\abao\line bot_MQTT\MQTTLearning_line_0421_1657\MqttServerTest\ClientTest\bin\Debug\EntityFramework.SqlServer.dll
+D:\abao\line bot_MQTT\MQTTLearning_line_0421_1657\MqttServerTest\ClientTest\bin\Debug\LineBot.dll
+D:\abao\line bot_MQTT\MQTTLearning_line_0421_1657\MqttServerTest\ClientTest\bin\Debug\MQTTnet.dll
+D:\abao\line bot_MQTT\MQTTLearning_line_0421_1657\MqttServerTest\ClientTest\bin\Debug\Newtonsoft.Json.dll
+D:\abao\line bot_MQTT\MQTTLearning_line_0421_1657\MqttServerTest\ClientTest\bin\Debug\System.Data.SQLite.dll
+D:\abao\line bot_MQTT\MQTTLearning_line_0421_1657\MqttServerTest\ClientTest\bin\Debug\System.Data.SQLite.EF6.dll
+D:\abao\line bot_MQTT\MQTTLearning_line_0421_1657\MqttServerTest\ClientTest\bin\Debug\System.Data.SQLite.Linq.dll
+D:\abao\line bot_MQTT\MQTTLearning_line_0421_1657\MqttServerTest\ClientTest\bin\Debug\EntityFramework.xml
+D:\abao\line bot_MQTT\MQTTLearning_line_0421_1657\MqttServerTest\ClientTest\bin\Debug\EntityFramework.SqlServer.xml
+D:\abao\line bot_MQTT\MQTTLearning_line_0421_1657\MqttServerTest\ClientTest\bin\Debug\LineBot.xml
+D:\abao\line bot_MQTT\MQTTLearning_line_0421_1657\MqttServerTest\ClientTest\bin\Debug\Newtonsoft.Json.xml
+D:\abao\line bot_MQTT\MQTTLearning_line_0421_1657\MqttServerTest\ClientTest\bin\Debug\System.Data.SQLite.xml
+D:\abao\line bot_MQTT\MQTTLearning_line_0421_1657\MqttServerTest\ClientTest\bin\Debug\System.Data.SQLite.dll.config
+D:\abao\line bot_MQTT\MQTTLearning_line_0421_1657\MqttServerTest\ClientTest\obj\Debug\ClientTest.csprojAssemblyReference.cache
+D:\abao\line bot_MQTT\MQTTLearning_line_0421_1657\MqttServerTest\ClientTest\obj\Debug\MqttServerTest.lineiot_0414_1753.resources
+D:\abao\line bot_MQTT\MQTTLearning_line_0421_1657\MqttServerTest\ClientTest\obj\Debug\MqttServerTest.Properties.Resources.resources
+D:\abao\line bot_MQTT\MQTTLearning_line_0421_1657\MqttServerTest\ClientTest\obj\Debug\ClientTest.csproj.GenerateResource.cache
+D:\abao\line bot_MQTT\MQTTLearning_line_0421_1657\MqttServerTest\ClientTest\obj\Debug\ClientTest.csproj.CopyComplete
+D:\abao\line bot_MQTT\MQTTLearning_line_0421_1657\MqttServerTest\ClientTest\obj\Debug\MqttServerTest.exe
+D:\abao\line bot_MQTT\MQTTLearning_line_0421_1657\MqttServerTest\ClientTest\obj\Debug\MqttServerTest.pdb
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0421_1657\MqttServerTest\ClientTest\bin\Debug\x86\sqlite3.dll
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0421_1657\MqttServerTest\ClientTest\bin\Debug\x64\sqlite3.dll
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0421_1657\MqttServerTest\ClientTest\bin\Debug\MqttServerTest.exe.config
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0421_1657\MqttServerTest\ClientTest\bin\Debug\MqttServerTest.exe
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0421_1657\MqttServerTest\ClientTest\bin\Debug\MqttServerTest.pdb
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0421_1657\MqttServerTest\ClientTest\bin\Debug\EntityFramework.dll
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0421_1657\MqttServerTest\ClientTest\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0421_1657\MqttServerTest\ClientTest\bin\Debug\LineBot.dll
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0421_1657\MqttServerTest\ClientTest\bin\Debug\MQTTnet.dll
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0421_1657\MqttServerTest\ClientTest\bin\Debug\Newtonsoft.Json.dll
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0421_1657\MqttServerTest\ClientTest\bin\Debug\System.Data.SQLite.dll
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0421_1657\MqttServerTest\ClientTest\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0421_1657\MqttServerTest\ClientTest\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0421_1657\MqttServerTest\ClientTest\bin\Debug\EntityFramework.xml
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0421_1657\MqttServerTest\ClientTest\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0421_1657\MqttServerTest\ClientTest\bin\Debug\LineBot.xml
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0421_1657\MqttServerTest\ClientTest\bin\Debug\Newtonsoft.Json.xml
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0421_1657\MqttServerTest\ClientTest\bin\Debug\System.Data.SQLite.xml
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0421_1657\MqttServerTest\ClientTest\bin\Debug\System.Data.SQLite.dll.config
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0421_1657\MqttServerTest\ClientTest\obj\Debug\ClientTest.csprojAssemblyReference.cache
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0421_1657\MqttServerTest\ClientTest\obj\Debug\MqttServerTest.lineiot_0414_1753.resources
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0421_1657\MqttServerTest\ClientTest\obj\Debug\MqttServerTest.Properties.Resources.resources
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0421_1657\MqttServerTest\ClientTest\obj\Debug\ClientTest.csproj.GenerateResource.cache
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0421_1657\MqttServerTest\ClientTest\obj\Debug\ClientTest.csproj.CopyComplete
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0421_1657\MqttServerTest\ClientTest\obj\Debug\MqttServerTest.exe
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0421_1657\MqttServerTest\ClientTest\obj\Debug\MqttServerTest.pdb
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0422_1020\MqttServerTest\ClientTest\bin\Debug\x86\sqlite3.dll
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0422_1020\MqttServerTest\ClientTest\bin\Debug\x64\sqlite3.dll
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0422_1020\MqttServerTest\ClientTest\bin\Debug\MqttServerTest.exe.config
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0422_1020\MqttServerTest\ClientTest\bin\Debug\MqttServerTest.exe
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0422_1020\MqttServerTest\ClientTest\bin\Debug\MqttServerTest.pdb
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0422_1020\MqttServerTest\ClientTest\bin\Debug\EntityFramework.dll
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0422_1020\MqttServerTest\ClientTest\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0422_1020\MqttServerTest\ClientTest\bin\Debug\LineBot.dll
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0422_1020\MqttServerTest\ClientTest\bin\Debug\MQTTnet.dll
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0422_1020\MqttServerTest\ClientTest\bin\Debug\Newtonsoft.Json.dll
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0422_1020\MqttServerTest\ClientTest\bin\Debug\System.Data.SQLite.dll
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0422_1020\MqttServerTest\ClientTest\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0422_1020\MqttServerTest\ClientTest\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0422_1020\MqttServerTest\ClientTest\bin\Debug\EntityFramework.xml
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0422_1020\MqttServerTest\ClientTest\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0422_1020\MqttServerTest\ClientTest\bin\Debug\LineBot.xml
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0422_1020\MqttServerTest\ClientTest\bin\Debug\Newtonsoft.Json.xml
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0422_1020\MqttServerTest\ClientTest\bin\Debug\System.Data.SQLite.xml
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0422_1020\MqttServerTest\ClientTest\bin\Debug\System.Data.SQLite.dll.config
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0422_1020\MqttServerTest\ClientTest\obj\Debug\ClientTest.csprojAssemblyReference.cache
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0422_1020\MqttServerTest\ClientTest\obj\Debug\MqttServerTest.lineiot_0414_1753.resources
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0422_1020\MqttServerTest\ClientTest\obj\Debug\MqttServerTest.Properties.Resources.resources
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0422_1020\MqttServerTest\ClientTest\obj\Debug\ClientTest.csproj.GenerateResource.cache
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0422_1020\MqttServerTest\ClientTest\obj\Debug\ClientTest.csproj.CopyComplete
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0422_1020\MqttServerTest\ClientTest\obj\Debug\MqttServerTest.exe
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0422_1020\MqttServerTest\ClientTest\obj\Debug\MqttServerTest.pdb
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0422_1604\MqttServerTest\ClientTest\bin\Debug\x86\sqlite3.dll
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0422_1604\MqttServerTest\ClientTest\bin\Debug\x64\sqlite3.dll
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0422_1604\MqttServerTest\ClientTest\bin\Debug\MqttServerTest.exe.config
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0422_1604\MqttServerTest\ClientTest\bin\Debug\MqttServerTest.exe
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0422_1604\MqttServerTest\ClientTest\bin\Debug\MqttServerTest.pdb
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0422_1604\MqttServerTest\ClientTest\bin\Debug\EntityFramework.dll
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0422_1604\MqttServerTest\ClientTest\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0422_1604\MqttServerTest\ClientTest\bin\Debug\LineBot.dll
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0422_1604\MqttServerTest\ClientTest\bin\Debug\MQTTnet.dll
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0422_1604\MqttServerTest\ClientTest\bin\Debug\Newtonsoft.Json.dll
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0422_1604\MqttServerTest\ClientTest\bin\Debug\System.Data.SQLite.dll
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0422_1604\MqttServerTest\ClientTest\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0422_1604\MqttServerTest\ClientTest\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0422_1604\MqttServerTest\ClientTest\bin\Debug\EntityFramework.xml
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0422_1604\MqttServerTest\ClientTest\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0422_1604\MqttServerTest\ClientTest\bin\Debug\LineBot.xml
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0422_1604\MqttServerTest\ClientTest\bin\Debug\Newtonsoft.Json.xml
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0422_1604\MqttServerTest\ClientTest\bin\Debug\System.Data.SQLite.xml
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0422_1604\MqttServerTest\ClientTest\bin\Debug\System.Data.SQLite.dll.config
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0422_1604\MqttServerTest\ClientTest\obj\Debug\ClientTest.csprojAssemblyReference.cache
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0422_1604\MqttServerTest\ClientTest\obj\Debug\MqttServerTest.lineiot_0414_1753.resources
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0422_1604\MqttServerTest\ClientTest\obj\Debug\MqttServerTest.Properties.Resources.resources
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0422_1604\MqttServerTest\ClientTest\obj\Debug\ClientTest.csproj.GenerateResource.cache
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0422_1604\MqttServerTest\ClientTest\obj\Debug\ClientTest.csproj.CopyComplete
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0422_1604\MqttServerTest\ClientTest\obj\Debug\MqttServerTest.exe
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0422_1604\MqttServerTest\ClientTest\obj\Debug\MqttServerTest.pdb
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0423_1658\MqttServerTest\ClientTest\bin\Debug\x86\sqlite3.dll
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0423_1658\MqttServerTest\ClientTest\bin\Debug\x64\sqlite3.dll
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0423_1658\MqttServerTest\ClientTest\bin\Debug\MqttServerTest.exe.config
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0423_1658\MqttServerTest\ClientTest\bin\Debug\MqttServerTest.exe
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0423_1658\MqttServerTest\ClientTest\bin\Debug\EntityFramework.dll
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0423_1658\MqttServerTest\ClientTest\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0423_1658\MqttServerTest\ClientTest\bin\Debug\LineBot.dll
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0423_1658\MqttServerTest\ClientTest\bin\Debug\MQTTnet.dll
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0423_1658\MqttServerTest\ClientTest\bin\Debug\Newtonsoft.Json.dll
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0423_1658\MqttServerTest\ClientTest\bin\Debug\System.Data.SQLite.dll
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0423_1658\MqttServerTest\ClientTest\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0423_1658\MqttServerTest\ClientTest\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0423_1658\MqttServerTest\ClientTest\bin\Debug\EntityFramework.xml
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0423_1658\MqttServerTest\ClientTest\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0423_1658\MqttServerTest\ClientTest\bin\Debug\LineBot.xml
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0423_1658\MqttServerTest\ClientTest\bin\Debug\Newtonsoft.Json.xml
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0423_1658\MqttServerTest\ClientTest\bin\Debug\System.Data.SQLite.xml
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0423_1658\MqttServerTest\ClientTest\bin\Debug\System.Data.SQLite.dll.config
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0423_1658\MqttServerTest\ClientTest\obj\Debug\ClientTest.csprojAssemblyReference.cache
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0423_1658\MqttServerTest\ClientTest\obj\Debug\MqttServerTest.lineiot_0414_1753.resources
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0423_1658\MqttServerTest\ClientTest\obj\Debug\MqttServerTest.Properties.Resources.resources
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0423_1658\MqttServerTest\ClientTest\obj\Debug\ClientTest.csproj.GenerateResource.cache
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0423_1658\MqttServerTest\ClientTest\obj\Debug\ClientTest.csproj.CopyComplete
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0423_1658\MqttServerTest\ClientTest\obj\Debug\MqttServerTest.exe
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0423_1658\MqttServerTest\ClientTest\obj\Debug\MqttServerTest.pdb
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0423_1658\MqttServerTest\ClientTest\bin\Debug\MqttServerTest.pdb
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0424_1630\MqttServerTest\ClientTest\bin\Debug\x86\sqlite3.dll
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0424_1630\MqttServerTest\ClientTest\bin\Debug\x64\sqlite3.dll
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0424_1630\MqttServerTest\ClientTest\bin\Debug\MqttServerTest.exe.config
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0424_1630\MqttServerTest\ClientTest\bin\Debug\MqttServerTest.exe
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0424_1630\MqttServerTest\ClientTest\bin\Debug\MqttServerTest.pdb
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0424_1630\MqttServerTest\ClientTest\bin\Debug\EntityFramework.dll
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0424_1630\MqttServerTest\ClientTest\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0424_1630\MqttServerTest\ClientTest\bin\Debug\LineBot.dll
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0424_1630\MqttServerTest\ClientTest\bin\Debug\MQTTnet.dll
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0424_1630\MqttServerTest\ClientTest\bin\Debug\Newtonsoft.Json.dll
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0424_1630\MqttServerTest\ClientTest\bin\Debug\System.Data.SQLite.dll
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0424_1630\MqttServerTest\ClientTest\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0424_1630\MqttServerTest\ClientTest\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0424_1630\MqttServerTest\ClientTest\bin\Debug\EntityFramework.xml
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0424_1630\MqttServerTest\ClientTest\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0424_1630\MqttServerTest\ClientTest\bin\Debug\LineBot.xml
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0424_1630\MqttServerTest\ClientTest\bin\Debug\Newtonsoft.Json.xml
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0424_1630\MqttServerTest\ClientTest\bin\Debug\System.Data.SQLite.xml
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0424_1630\MqttServerTest\ClientTest\bin\Debug\System.Data.SQLite.dll.config
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0424_1630\MqttServerTest\ClientTest\obj\Debug\ClientTest.csprojAssemblyReference.cache
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0424_1630\MqttServerTest\ClientTest\obj\Debug\MqttServerTest.Properties.Resources.resources
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0424_1630\MqttServerTest\ClientTest\obj\Debug\ClientTest.csproj.GenerateResource.cache
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0424_1630\MqttServerTest\ClientTest\obj\Debug\ClientTest.csproj.CopyComplete
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0424_1630\MqttServerTest\ClientTest\obj\Debug\MqttServerTest.exe
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0424_1630\MqttServerTest\ClientTest\obj\Debug\MqttServerTest.pdb
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0424_1630\MqttServerTest\ClientTest\obj\Debug\MqttServerTest.lineiot_0424_1630.resources
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0604_1518\MqttServerTest\ClientTest\bin\Debug\x86\sqlite3.dll
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0604_1518\MqttServerTest\ClientTest\bin\Debug\x64\sqlite3.dll
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0604_1518\MqttServerTest\ClientTest\bin\Debug\MqttServerTest.exe.config
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0604_1518\MqttServerTest\ClientTest\bin\Debug\MqttServerTest.exe
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0604_1518\MqttServerTest\ClientTest\bin\Debug\MqttServerTest.pdb
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0604_1518\MqttServerTest\ClientTest\bin\Debug\EntityFramework.dll
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0604_1518\MqttServerTest\ClientTest\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0604_1518\MqttServerTest\ClientTest\bin\Debug\LineBot.dll
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0604_1518\MqttServerTest\ClientTest\bin\Debug\MQTTnet.dll
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0604_1518\MqttServerTest\ClientTest\bin\Debug\Newtonsoft.Json.dll
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0604_1518\MqttServerTest\ClientTest\bin\Debug\System.Data.SQLite.dll
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0604_1518\MqttServerTest\ClientTest\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0604_1518\MqttServerTest\ClientTest\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0604_1518\MqttServerTest\ClientTest\bin\Debug\EntityFramework.xml
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0604_1518\MqttServerTest\ClientTest\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0604_1518\MqttServerTest\ClientTest\bin\Debug\LineBot.xml
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0604_1518\MqttServerTest\ClientTest\bin\Debug\Newtonsoft.Json.xml
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0604_1518\MqttServerTest\ClientTest\bin\Debug\System.Data.SQLite.xml
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0604_1518\MqttServerTest\ClientTest\bin\Debug\System.Data.SQLite.dll.config
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0604_1518\MqttServerTest\ClientTest\obj\Debug\ClientTest.csprojAssemblyReference.cache
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0604_1518\MqttServerTest\ClientTest\obj\Debug\MqttServerTest.lineiot_0424_1630.resources
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0604_1518\MqttServerTest\ClientTest\obj\Debug\MqttServerTest.Properties.Resources.resources
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0604_1518\MqttServerTest\ClientTest\obj\Debug\ClientTest.csproj.GenerateResource.cache
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0604_1518\MqttServerTest\ClientTest\obj\Debug\ClientTest.csproj.CopyComplete
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0604_1518\MqttServerTest\ClientTest\obj\Debug\MqttServerTest.exe
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0604_1518\MqttServerTest\ClientTest\obj\Debug\MqttServerTest.pdb
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0604_1518\MqttServerTest\ClientTest\bin\Debug\MySql.Data.dll
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0604_1518\MqttServerTest\ClientTest\bin\Debug\MySql.Data.EntityFramework.dll
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0604_1518\MqttServerTest\ClientTest\bin\Debug\MySQL.Data.EntityFrameworkCore.Design.dll
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0604_1518\MqttServerTest\ClientTest\bin\Debug\MySQL.Data.EntityFrameworkCore.dll
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0604_1518\MqttServerTest\ClientTest\bin\Debug\Google.Protobuf.dll
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0604_1518\MqttServerTest\ClientTest\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0604_1518\MqttServerTest\ClientTest\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0604_1518\MqttServerTest\ClientTest\bin\Debug\Renci.SshNet.dll
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0604_1518\MqttServerTest\ClientTest\bin\Debug\MySql.Data.xml
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0604_1518\MqttServerTest\ClientTest\bin\Debug\MySql.Data.EntityFramework.xml
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0604_1518\MqttServerTest\ClientTest\bin\Debug\MySQL.Data.EntityFrameworkCore.xml
+C:\Users\samchou\Desktop\codd\MQTTLearning_line_0604_1518\MqttServerTest\ClientTest\bin\Debug\MySQL.Data.EntityFrameworkCore.Design.xml
+C:\Users\samchou\Desktop\0716\MqttServerTest\ClientTest\bin\Debug\x86\sqlite3.dll
+C:\Users\samchou\Desktop\0716\MqttServerTest\ClientTest\bin\Debug\x64\sqlite3.dll
+C:\Users\samchou\Desktop\0716\MqttServerTest\ClientTest\bin\Debug\MqttServerTest.exe.config
+C:\Users\samchou\Desktop\0716\MqttServerTest\ClientTest\bin\Debug\MqttServerTest.exe
+C:\Users\samchou\Desktop\0716\MqttServerTest\ClientTest\bin\Debug\MqttServerTest.pdb
+C:\Users\samchou\Desktop\0716\MqttServerTest\ClientTest\bin\Debug\EntityFramework.dll
+C:\Users\samchou\Desktop\0716\MqttServerTest\ClientTest\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\samchou\Desktop\0716\MqttServerTest\ClientTest\bin\Debug\LineBot.dll
+C:\Users\samchou\Desktop\0716\MqttServerTest\ClientTest\bin\Debug\MQTTnet.dll
+C:\Users\samchou\Desktop\0716\MqttServerTest\ClientTest\bin\Debug\MySql.Data.dll
+C:\Users\samchou\Desktop\0716\MqttServerTest\ClientTest\bin\Debug\MySql.Data.EntityFramework.dll
+C:\Users\samchou\Desktop\0716\MqttServerTest\ClientTest\bin\Debug\MySQL.Data.EntityFrameworkCore.Design.dll
+C:\Users\samchou\Desktop\0716\MqttServerTest\ClientTest\bin\Debug\MySQL.Data.EntityFrameworkCore.dll
+C:\Users\samchou\Desktop\0716\MqttServerTest\ClientTest\bin\Debug\Newtonsoft.Json.dll
+C:\Users\samchou\Desktop\0716\MqttServerTest\ClientTest\bin\Debug\System.Data.SQLite.dll
+C:\Users\samchou\Desktop\0716\MqttServerTest\ClientTest\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\samchou\Desktop\0716\MqttServerTest\ClientTest\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\samchou\Desktop\0716\MqttServerTest\ClientTest\bin\Debug\Google.Protobuf.dll
+C:\Users\samchou\Desktop\0716\MqttServerTest\ClientTest\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\samchou\Desktop\0716\MqttServerTest\ClientTest\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\samchou\Desktop\0716\MqttServerTest\ClientTest\bin\Debug\Renci.SshNet.dll
+C:\Users\samchou\Desktop\0716\MqttServerTest\ClientTest\bin\Debug\EntityFramework.xml
+C:\Users\samchou\Desktop\0716\MqttServerTest\ClientTest\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\samchou\Desktop\0716\MqttServerTest\ClientTest\bin\Debug\LineBot.xml
+C:\Users\samchou\Desktop\0716\MqttServerTest\ClientTest\bin\Debug\MySql.Data.xml
+C:\Users\samchou\Desktop\0716\MqttServerTest\ClientTest\bin\Debug\MySql.Data.EntityFramework.xml
+C:\Users\samchou\Desktop\0716\MqttServerTest\ClientTest\bin\Debug\MySQL.Data.EntityFrameworkCore.xml
+C:\Users\samchou\Desktop\0716\MqttServerTest\ClientTest\bin\Debug\MySQL.Data.EntityFrameworkCore.Design.xml
+C:\Users\samchou\Desktop\0716\MqttServerTest\ClientTest\bin\Debug\Newtonsoft.Json.xml
+C:\Users\samchou\Desktop\0716\MqttServerTest\ClientTest\bin\Debug\System.Data.SQLite.xml
+C:\Users\samchou\Desktop\0716\MqttServerTest\ClientTest\bin\Debug\System.Data.SQLite.dll.config
+C:\Users\samchou\Desktop\0716\MqttServerTest\ClientTest\obj\Debug\ClientTest.csprojAssemblyReference.cache
+C:\Users\samchou\Desktop\0716\MqttServerTest\ClientTest\obj\Debug\MqttServerTest.lineiot_0424_1630.resources
+C:\Users\samchou\Desktop\0716\MqttServerTest\ClientTest\obj\Debug\MqttServerTest.Properties.Resources.resources
+C:\Users\samchou\Desktop\0716\MqttServerTest\ClientTest\obj\Debug\ClientTest.csproj.GenerateResource.cache
+C:\Users\samchou\Desktop\0716\MqttServerTest\ClientTest\obj\Debug\ClientTest.csproj.CopyComplete
+C:\Users\samchou\Desktop\0716\MqttServerTest\ClientTest\obj\Debug\MqttServerTest.exe
+C:\Users\samchou\Desktop\0716\MqttServerTest\ClientTest\obj\Debug\MqttServerTest.pdb
+C:\Users\samchou\Desktop\MQTTLearning_line_0716_1644\MqttServerTest\ClientTest\bin\Debug\x86\sqlite3.dll
+C:\Users\samchou\Desktop\MQTTLearning_line_0716_1644\MqttServerTest\ClientTest\bin\Debug\x64\sqlite3.dll
+C:\Users\samchou\Desktop\MQTTLearning_line_0716_1644\MqttServerTest\ClientTest\bin\Debug\MqttServerTest.exe.config
+C:\Users\samchou\Desktop\MQTTLearning_line_0716_1644\MqttServerTest\ClientTest\bin\Debug\MqttServerTest.exe
+C:\Users\samchou\Desktop\MQTTLearning_line_0716_1644\MqttServerTest\ClientTest\bin\Debug\MqttServerTest.pdb
+C:\Users\samchou\Desktop\MQTTLearning_line_0716_1644\MqttServerTest\ClientTest\bin\Debug\EntityFramework.dll
+C:\Users\samchou\Desktop\MQTTLearning_line_0716_1644\MqttServerTest\ClientTest\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\samchou\Desktop\MQTTLearning_line_0716_1644\MqttServerTest\ClientTest\bin\Debug\LineBot.dll
+C:\Users\samchou\Desktop\MQTTLearning_line_0716_1644\MqttServerTest\ClientTest\bin\Debug\MQTTnet.dll
+C:\Users\samchou\Desktop\MQTTLearning_line_0716_1644\MqttServerTest\ClientTest\bin\Debug\MySql.Data.dll
+C:\Users\samchou\Desktop\MQTTLearning_line_0716_1644\MqttServerTest\ClientTest\bin\Debug\MySql.Data.EntityFramework.dll
+C:\Users\samchou\Desktop\MQTTLearning_line_0716_1644\MqttServerTest\ClientTest\bin\Debug\MySQL.Data.EntityFrameworkCore.Design.dll
+C:\Users\samchou\Desktop\MQTTLearning_line_0716_1644\MqttServerTest\ClientTest\bin\Debug\MySQL.Data.EntityFrameworkCore.dll
+C:\Users\samchou\Desktop\MQTTLearning_line_0716_1644\MqttServerTest\ClientTest\bin\Debug\Newtonsoft.Json.dll
+C:\Users\samchou\Desktop\MQTTLearning_line_0716_1644\MqttServerTest\ClientTest\bin\Debug\System.Data.SQLite.dll
+C:\Users\samchou\Desktop\MQTTLearning_line_0716_1644\MqttServerTest\ClientTest\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\samchou\Desktop\MQTTLearning_line_0716_1644\MqttServerTest\ClientTest\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\samchou\Desktop\MQTTLearning_line_0716_1644\MqttServerTest\ClientTest\bin\Debug\Google.Protobuf.dll
+C:\Users\samchou\Desktop\MQTTLearning_line_0716_1644\MqttServerTest\ClientTest\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\samchou\Desktop\MQTTLearning_line_0716_1644\MqttServerTest\ClientTest\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\samchou\Desktop\MQTTLearning_line_0716_1644\MqttServerTest\ClientTest\bin\Debug\Renci.SshNet.dll
+C:\Users\samchou\Desktop\MQTTLearning_line_0716_1644\MqttServerTest\ClientTest\bin\Debug\EntityFramework.xml
+C:\Users\samchou\Desktop\MQTTLearning_line_0716_1644\MqttServerTest\ClientTest\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\samchou\Desktop\MQTTLearning_line_0716_1644\MqttServerTest\ClientTest\bin\Debug\LineBot.xml
+C:\Users\samchou\Desktop\MQTTLearning_line_0716_1644\MqttServerTest\ClientTest\bin\Debug\MySql.Data.xml
+C:\Users\samchou\Desktop\MQTTLearning_line_0716_1644\MqttServerTest\ClientTest\bin\Debug\MySql.Data.EntityFramework.xml
+C:\Users\samchou\Desktop\MQTTLearning_line_0716_1644\MqttServerTest\ClientTest\bin\Debug\MySQL.Data.EntityFrameworkCore.xml
+C:\Users\samchou\Desktop\MQTTLearning_line_0716_1644\MqttServerTest\ClientTest\bin\Debug\MySQL.Data.EntityFrameworkCore.Design.xml
+C:\Users\samchou\Desktop\MQTTLearning_line_0716_1644\MqttServerTest\ClientTest\bin\Debug\Newtonsoft.Json.xml
+C:\Users\samchou\Desktop\MQTTLearning_line_0716_1644\MqttServerTest\ClientTest\bin\Debug\System.Data.SQLite.xml
+C:\Users\samchou\Desktop\MQTTLearning_line_0716_1644\MqttServerTest\ClientTest\bin\Debug\System.Data.SQLite.dll.config
+C:\Users\samchou\Desktop\MQTTLearning_line_0716_1644\MqttServerTest\ClientTest\obj\Debug\ClientTest.csprojAssemblyReference.cache
+C:\Users\samchou\Desktop\MQTTLearning_line_0716_1644\MqttServerTest\ClientTest\obj\Debug\MqttServerTest.lineiot_0424_1630.resources
+C:\Users\samchou\Desktop\MQTTLearning_line_0716_1644\MqttServerTest\ClientTest\obj\Debug\MqttServerTest.Properties.Resources.resources
+C:\Users\samchou\Desktop\MQTTLearning_line_0716_1644\MqttServerTest\ClientTest\obj\Debug\ClientTest.csproj.GenerateResource.cache
+C:\Users\samchou\Desktop\MQTTLearning_line_0716_1644\MqttServerTest\ClientTest\obj\Debug\ClientTest.csproj.CopyComplete
+C:\Users\samchou\Desktop\MQTTLearning_line_0716_1644\MqttServerTest\ClientTest\obj\Debug\MqttServerTest.exe
+C:\Users\samchou\Desktop\MQTTLearning_line_0716_1644\MqttServerTest\ClientTest\obj\Debug\MqttServerTest.pdb
+C:\Users\work\Desktop\thread\MQTTLearning_line_0716_1644\MqttServerTest\ClientTest\bin\Debug\x86\sqlite3.dll
+C:\Users\work\Desktop\thread\MQTTLearning_line_0716_1644\MqttServerTest\ClientTest\bin\Debug\x64\sqlite3.dll
+C:\Users\work\Desktop\thread\MQTTLearning_line_0716_1644\MqttServerTest\ClientTest\bin\Debug\MqttServerTest.exe.config
+C:\Users\work\Desktop\thread\MQTTLearning_line_0716_1644\MqttServerTest\ClientTest\bin\Debug\MqttServerTest.exe
+C:\Users\work\Desktop\thread\MQTTLearning_line_0716_1644\MqttServerTest\ClientTest\bin\Debug\MqttServerTest.pdb
+C:\Users\work\Desktop\thread\MQTTLearning_line_0716_1644\MqttServerTest\ClientTest\bin\Debug\EntityFramework.dll
+C:\Users\work\Desktop\thread\MQTTLearning_line_0716_1644\MqttServerTest\ClientTest\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\work\Desktop\thread\MQTTLearning_line_0716_1644\MqttServerTest\ClientTest\bin\Debug\LineBot.dll
+C:\Users\work\Desktop\thread\MQTTLearning_line_0716_1644\MqttServerTest\ClientTest\bin\Debug\MQTTnet.dll
+C:\Users\work\Desktop\thread\MQTTLearning_line_0716_1644\MqttServerTest\ClientTest\bin\Debug\Newtonsoft.Json.dll
+C:\Users\work\Desktop\thread\MQTTLearning_line_0716_1644\MqttServerTest\ClientTest\bin\Debug\System.Data.SQLite.dll
+C:\Users\work\Desktop\thread\MQTTLearning_line_0716_1644\MqttServerTest\ClientTest\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\work\Desktop\thread\MQTTLearning_line_0716_1644\MqttServerTest\ClientTest\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\work\Desktop\thread\MQTTLearning_line_0716_1644\MqttServerTest\ClientTest\bin\Debug\Google.Protobuf.dll
+C:\Users\work\Desktop\thread\MQTTLearning_line_0716_1644\MqttServerTest\ClientTest\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\work\Desktop\thread\MQTTLearning_line_0716_1644\MqttServerTest\ClientTest\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\work\Desktop\thread\MQTTLearning_line_0716_1644\MqttServerTest\ClientTest\bin\Debug\Renci.SshNet.dll
+C:\Users\work\Desktop\thread\MQTTLearning_line_0716_1644\MqttServerTest\ClientTest\bin\Debug\EntityFramework.xml
+C:\Users\work\Desktop\thread\MQTTLearning_line_0716_1644\MqttServerTest\ClientTest\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\work\Desktop\thread\MQTTLearning_line_0716_1644\MqttServerTest\ClientTest\bin\Debug\LineBot.xml
+C:\Users\work\Desktop\thread\MQTTLearning_line_0716_1644\MqttServerTest\ClientTest\bin\Debug\MySql.Data.xml
+C:\Users\work\Desktop\thread\MQTTLearning_line_0716_1644\MqttServerTest\ClientTest\bin\Debug\MySql.Data.EntityFramework.xml
+C:\Users\work\Desktop\thread\MQTTLearning_line_0716_1644\MqttServerTest\ClientTest\bin\Debug\MySQL.Data.EntityFrameworkCore.xml
+C:\Users\work\Desktop\thread\MQTTLearning_line_0716_1644\MqttServerTest\ClientTest\bin\Debug\MySQL.Data.EntityFrameworkCore.Design.xml
+C:\Users\work\Desktop\thread\MQTTLearning_line_0716_1644\MqttServerTest\ClientTest\bin\Debug\Newtonsoft.Json.xml
+C:\Users\work\Desktop\thread\MQTTLearning_line_0716_1644\MqttServerTest\ClientTest\bin\Debug\System.Data.SQLite.xml
+C:\Users\work\Desktop\thread\MQTTLearning_line_0716_1644\MqttServerTest\ClientTest\bin\Debug\System.Data.SQLite.dll.config
+C:\Users\work\Desktop\thread\MQTTLearning_line_0716_1644\MqttServerTest\ClientTest\obj\Debug\ClientTest.csprojAssemblyReference.cache
+C:\Users\work\Desktop\thread\MQTTLearning_line_0716_1644\MqttServerTest\ClientTest\obj\Debug\MqttServerTest.lineiot_0424_1630.resources
+C:\Users\work\Desktop\thread\MQTTLearning_line_0716_1644\MqttServerTest\ClientTest\obj\Debug\MqttServerTest.Properties.Resources.resources
+C:\Users\work\Desktop\thread\MQTTLearning_line_0716_1644\MqttServerTest\ClientTest\obj\Debug\ClientTest.csproj.GenerateResource.cache
+C:\Users\work\Desktop\thread\MQTTLearning_line_0716_1644\MqttServerTest\ClientTest\obj\Debug\ClientTest.csproj.CoreCompileInputs.cache
+C:\Users\work\Desktop\thread\MQTTLearning_line_0716_1644\MqttServerTest\ClientTest\obj\Debug\ClientTest.csproj.CopyComplete
+C:\Users\work\Desktop\thread\MQTTLearning_line_0716_1644\MqttServerTest\ClientTest\obj\Debug\MqttServerTest.exe
+C:\Users\work\Desktop\thread\MQTTLearning_line_0716_1644\MqttServerTest\ClientTest\obj\Debug\MqttServerTest.pdb

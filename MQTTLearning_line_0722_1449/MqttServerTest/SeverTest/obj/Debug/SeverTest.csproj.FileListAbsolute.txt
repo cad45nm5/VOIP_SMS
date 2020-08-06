@@ -1,0 +1,79 @@
+G:\mission\CSharpLearning\MQTTLearning\MqttServerTest\SeverTest\bin\Debug\SeverTest.exe.config
+G:\mission\CSharpLearning\MQTTLearning\MqttServerTest\SeverTest\bin\Debug\SeverTest.exe
+G:\mission\CSharpLearning\MQTTLearning\MqttServerTest\SeverTest\bin\Debug\SeverTest.pdb
+G:\mission\CSharpLearning\MQTTLearning\MqttServerTest\SeverTest\bin\Debug\MQTTnet.dll
+G:\mission\CSharpLearning\MQTTLearning\MqttServerTest\SeverTest\obj\Debug\SeverTest.csprojResolveAssemblyReference.cache
+G:\mission\CSharpLearning\MQTTLearning\MqttServerTest\SeverTest\obj\Debug\SeverTest.exe
+G:\mission\CSharpLearning\MQTTLearning\MqttServerTest\SeverTest\obj\Debug\SeverTest.pdb
+G:\mission\CSharpLearning\MQTTLearning\MqttServerTest\SeverTest\bin\Debug\Newtonsoft.Json.dll
+G:\mission\CSharpLearning\MQTTLearning\MqttServerTest\SeverTest\bin\Debug\Newtonsoft.Json.xml
+C:\Users\AMBER\Desktop\MQTTLearning-master\MqttServerTest\SeverTest\bin\Debug\SeverTest.exe.config
+C:\Users\AMBER\Desktop\MQTTLearning-master\MqttServerTest\SeverTest\bin\Debug\SeverTest.exe
+C:\Users\AMBER\Desktop\MQTTLearning-master\MqttServerTest\SeverTest\bin\Debug\SeverTest.pdb
+C:\Users\AMBER\Desktop\MQTTLearning-master\MqttServerTest\SeverTest\bin\Debug\MQTTnet.dll
+C:\Users\AMBER\Desktop\MQTTLearning-master\MqttServerTest\SeverTest\bin\Debug\Newtonsoft.Json.dll
+C:\Users\AMBER\Desktop\MQTTLearning-master\MqttServerTest\SeverTest\bin\Debug\Newtonsoft.Json.xml
+C:\Users\AMBER\Desktop\MQTTLearning-master\MqttServerTest\SeverTest\obj\Debug\SeverTest.csprojAssemblyReference.cache
+C:\Users\AMBER\Desktop\MQTTLearning-master\MqttServerTest\SeverTest\obj\Debug\SeverTest.csproj.CopyComplete
+C:\Users\AMBER\Desktop\MQTTLearning-master\MqttServerTest\SeverTest\obj\Debug\SeverTest.exe
+C:\Users\AMBER\Desktop\MQTTLearning-master\MqttServerTest\SeverTest\obj\Debug\SeverTest.pdb
+D:\abao\line bot_MQTT\MQTTLearning_line_0416_1804\MqttServerTest\SeverTest\bin\Debug\SeverTest.exe.config
+D:\abao\line bot_MQTT\MQTTLearning_line_0416_1804\MqttServerTest\SeverTest\bin\Debug\SeverTest.exe
+D:\abao\line bot_MQTT\MQTTLearning_line_0416_1804\MqttServerTest\SeverTest\bin\Debug\SeverTest.pdb
+D:\abao\line bot_MQTT\MQTTLearning_line_0416_1804\MqttServerTest\SeverTest\bin\Debug\MQTTnet.dll
+D:\abao\line bot_MQTT\MQTTLearning_line_0416_1804\MqttServerTest\SeverTest\bin\Debug\Newtonsoft.Json.dll
+D:\abao\line bot_MQTT\MQTTLearning_line_0416_1804\MqttServerTest\SeverTest\bin\Debug\Newtonsoft.Json.xml
+D:\abao\line bot_MQTT\MQTTLearning_line_0416_1804\MqttServerTest\SeverTest\obj\Debug\SeverTest.csprojAssemblyReference.cache
+D:\abao\line bot_MQTT\MQTTLearning_line_0416_1804\MqttServerTest\SeverTest\obj\Debug\SeverTest.csproj.CopyComplete
+D:\abao\line bot_MQTT\MQTTLearning_line_0416_1804\MqttServerTest\SeverTest\obj\Debug\SeverTest.exe
+D:\abao\line bot_MQTT\MQTTLearning_line_0416_1804\MqttServerTest\SeverTest\obj\Debug\SeverTest.pdb
+D:\abao\line bot_MQTT\MQTTLearning_line_0417_1556\MqttServerTest\SeverTest\bin\Debug\x86\sqlite3.dll
+D:\abao\line bot_MQTT\MQTTLearning_line_0417_1556\MqttServerTest\SeverTest\bin\Debug\x64\sqlite3.dll
+D:\abao\line bot_MQTT\MQTTLearning_line_0417_1556\MqttServerTest\SeverTest\bin\Debug\SeverTest.exe.config
+D:\abao\line bot_MQTT\MQTTLearning_line_0417_1556\MqttServerTest\SeverTest\bin\Debug\SeverTest.exe
+D:\abao\line bot_MQTT\MQTTLearning_line_0417_1556\MqttServerTest\SeverTest\bin\Debug\SeverTest.pdb
+D:\abao\line bot_MQTT\MQTTLearning_line_0417_1556\MqttServerTest\SeverTest\bin\Debug\EntityFramework.dll
+D:\abao\line bot_MQTT\MQTTLearning_line_0417_1556\MqttServerTest\SeverTest\bin\Debug\EntityFramework.SqlServer.dll
+D:\abao\line bot_MQTT\MQTTLearning_line_0417_1556\MqttServerTest\SeverTest\bin\Debug\LineBot.dll
+D:\abao\line bot_MQTT\MQTTLearning_line_0417_1556\MqttServerTest\SeverTest\bin\Debug\MQTTnet.dll
+D:\abao\line bot_MQTT\MQTTLearning_line_0417_1556\MqttServerTest\SeverTest\bin\Debug\Newtonsoft.Json.dll
+D:\abao\line bot_MQTT\MQTTLearning_line_0417_1556\MqttServerTest\SeverTest\bin\Debug\System.Data.SQLite.dll
+D:\abao\line bot_MQTT\MQTTLearning_line_0417_1556\MqttServerTest\SeverTest\bin\Debug\System.Data.SQLite.EF6.dll
+D:\abao\line bot_MQTT\MQTTLearning_line_0417_1556\MqttServerTest\SeverTest\bin\Debug\System.Data.SQLite.Linq.dll
+D:\abao\line bot_MQTT\MQTTLearning_line_0417_1556\MqttServerTest\SeverTest\bin\Debug\EntityFramework.xml
+D:\abao\line bot_MQTT\MQTTLearning_line_0417_1556\MqttServerTest\SeverTest\bin\Debug\EntityFramework.SqlServer.xml
+D:\abao\line bot_MQTT\MQTTLearning_line_0417_1556\MqttServerTest\SeverTest\bin\Debug\LineBot.xml
+D:\abao\line bot_MQTT\MQTTLearning_line_0417_1556\MqttServerTest\SeverTest\bin\Debug\Newtonsoft.Json.xml
+D:\abao\line bot_MQTT\MQTTLearning_line_0417_1556\MqttServerTest\SeverTest\bin\Debug\System.Data.SQLite.xml
+D:\abao\line bot_MQTT\MQTTLearning_line_0417_1556\MqttServerTest\SeverTest\bin\Debug\System.Data.SQLite.dll.config
+D:\abao\line bot_MQTT\MQTTLearning_line_0417_1556\MqttServerTest\SeverTest\obj\Debug\SeverTest.csprojAssemblyReference.cache
+D:\abao\line bot_MQTT\MQTTLearning_line_0417_1556\MqttServerTest\SeverTest\obj\Debug\SeverTest.Form1.resources
+D:\abao\line bot_MQTT\MQTTLearning_line_0417_1556\MqttServerTest\SeverTest\obj\Debug\SeverTest.csproj.GenerateResource.cache
+D:\abao\line bot_MQTT\MQTTLearning_line_0417_1556\MqttServerTest\SeverTest\obj\Debug\SeverTest.csproj.CopyComplete
+D:\abao\line bot_MQTT\MQTTLearning_line_0417_1556\MqttServerTest\SeverTest\obj\Debug\SeverTest.exe
+D:\abao\line bot_MQTT\MQTTLearning_line_0417_1556\MqttServerTest\SeverTest\obj\Debug\SeverTest.pdb
+D:\abao\line bot_MQTT\MQTTLearning_line_0420_1031\MqttServerTest\SeverTest\bin\Debug\x86\sqlite3.dll
+D:\abao\line bot_MQTT\MQTTLearning_line_0420_1031\MqttServerTest\SeverTest\bin\Debug\x64\sqlite3.dll
+D:\abao\line bot_MQTT\MQTTLearning_line_0420_1031\MqttServerTest\SeverTest\bin\Debug\SeverTest.exe.config
+D:\abao\line bot_MQTT\MQTTLearning_line_0420_1031\MqttServerTest\SeverTest\bin\Debug\SeverTest.exe
+D:\abao\line bot_MQTT\MQTTLearning_line_0420_1031\MqttServerTest\SeverTest\bin\Debug\SeverTest.pdb
+D:\abao\line bot_MQTT\MQTTLearning_line_0420_1031\MqttServerTest\SeverTest\bin\Debug\EntityFramework.dll
+D:\abao\line bot_MQTT\MQTTLearning_line_0420_1031\MqttServerTest\SeverTest\bin\Debug\EntityFramework.SqlServer.dll
+D:\abao\line bot_MQTT\MQTTLearning_line_0420_1031\MqttServerTest\SeverTest\bin\Debug\LineBot.dll
+D:\abao\line bot_MQTT\MQTTLearning_line_0420_1031\MqttServerTest\SeverTest\bin\Debug\MQTTnet.dll
+D:\abao\line bot_MQTT\MQTTLearning_line_0420_1031\MqttServerTest\SeverTest\bin\Debug\Newtonsoft.Json.dll
+D:\abao\line bot_MQTT\MQTTLearning_line_0420_1031\MqttServerTest\SeverTest\bin\Debug\System.Data.SQLite.dll
+D:\abao\line bot_MQTT\MQTTLearning_line_0420_1031\MqttServerTest\SeverTest\bin\Debug\System.Data.SQLite.EF6.dll
+D:\abao\line bot_MQTT\MQTTLearning_line_0420_1031\MqttServerTest\SeverTest\bin\Debug\System.Data.SQLite.Linq.dll
+D:\abao\line bot_MQTT\MQTTLearning_line_0420_1031\MqttServerTest\SeverTest\bin\Debug\EntityFramework.xml
+D:\abao\line bot_MQTT\MQTTLearning_line_0420_1031\MqttServerTest\SeverTest\bin\Debug\EntityFramework.SqlServer.xml
+D:\abao\line bot_MQTT\MQTTLearning_line_0420_1031\MqttServerTest\SeverTest\bin\Debug\LineBot.xml
+D:\abao\line bot_MQTT\MQTTLearning_line_0420_1031\MqttServerTest\SeverTest\bin\Debug\Newtonsoft.Json.xml
+D:\abao\line bot_MQTT\MQTTLearning_line_0420_1031\MqttServerTest\SeverTest\bin\Debug\System.Data.SQLite.xml
+D:\abao\line bot_MQTT\MQTTLearning_line_0420_1031\MqttServerTest\SeverTest\bin\Debug\System.Data.SQLite.dll.config
+D:\abao\line bot_MQTT\MQTTLearning_line_0420_1031\MqttServerTest\SeverTest\obj\Debug\SeverTest.csprojAssemblyReference.cache
+D:\abao\line bot_MQTT\MQTTLearning_line_0420_1031\MqttServerTest\SeverTest\obj\Debug\SeverTest.Form1.resources
+D:\abao\line bot_MQTT\MQTTLearning_line_0420_1031\MqttServerTest\SeverTest\obj\Debug\SeverTest.csproj.GenerateResource.cache
+D:\abao\line bot_MQTT\MQTTLearning_line_0420_1031\MqttServerTest\SeverTest\obj\Debug\SeverTest.csproj.CopyComplete
+D:\abao\line bot_MQTT\MQTTLearning_line_0420_1031\MqttServerTest\SeverTest\obj\Debug\SeverTest.exe
+D:\abao\line bot_MQTT\MQTTLearning_line_0420_1031\MqttServerTest\SeverTest\obj\Debug\SeverTest.pdb

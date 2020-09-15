@@ -1,27 +1,27 @@
 ﻿
 using MQTTnet;
 using MQTTnet.Client;
+using MQTTnet.Diagnostics;
 using MQTTnet.ManagedClient;
 using MQTTnet.Protocol;
+using MQTTnet.Server;
+using MySql.Data.MySqlClient;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
 using System.Data;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-using System.IO;// for check file exist
 using System.Data.SQLite;//for SQLite
-using MQTTnet.Diagnostics;
-using MQTTnet.Server;
-using Newtonsoft.Json;
-using System.Security.Cryptography.X509Certificates;
-using Newtonsoft.Json.Linq;
+using System.IO;// for check file exist
+using System.Net;
 using System.Net.Mail;
 using System.Net.Mime;
-using System.Net;
 using System.Net.NetworkInformation;
+using System.Security.Cryptography.X509Certificates;
+using System.Text;
 using System.Threading;
-using MySql.Data.MySqlClient;
+using System.Threading.Tasks;
+using System.Windows.Forms;
 namespace MqttServerTest
 {
     public partial class lineiot_0424_1630 : Form
@@ -34,7 +34,7 @@ namespace MqttServerTest
         //public int DB_now = 0;
         public const int DEVICE_MAXIMUM = 500;
         public string[] Device = new string[DEVICE_MAXIMUM];//waiting to send queue
-        
+
         //thread--------------------------------------------------------------------
         private IMqttClient mqttClient = null;
         private bool isReconnect = true;
@@ -81,6 +81,12 @@ namespace MqttServerTest
         public string ISSUCCES { get; private set; }
         public string MSG_LOG { get; private set; }
         public string tt { get; private set; }
+        //txtReceiveMessage.AppendText($"test{Environment.NewLine}");
+        const string dbHost = "119.8.101.21";//資料庫位址
+        const string dbUser = "1234";//資料庫使用者帳號
+        const string dbPass = "1234";//資料庫使用者密碼
+        const string dbName = "sms";//資料庫名稱
+        const string connStr = "server=" + dbHost + ";uid=" + dbUser + ";pwd=" + dbPass + ";database=" + dbName;
 
         public lineiot_0424_1630()
         {
@@ -91,12 +97,7 @@ namespace MqttServerTest
         void DeviceCheck()
         {
 
-            //txtReceiveMessage.AppendText($"test{Environment.NewLine}");
-            string dbHost = "192.168.3.123 ";//資料庫位址
-            string dbUser = "samchou";//資料庫使用者帳號
-            string dbPass = "chou1234";//資料庫使用者密碼
-            string dbName = "sms";//資料庫名稱
-            string connStr = "server=" + dbHost + ";uid=" + dbUser + ";pwd=" + dbPass + ";database=" + dbName;
+
 
 
 
@@ -104,6 +105,7 @@ namespace MqttServerTest
             MySqlConnection conn = new MySqlConnection(connStr);
             MySqlCommand command = conn.CreateCommand();
             conn.Open();
+            Thread.Sleep(10);
             command.CommandText = "SELECT COUNT(*) FROM device";
             int NUM_DEVICE = Convert.ToInt32(command.ExecuteScalar());
 
@@ -112,181 +114,189 @@ namespace MqttServerTest
                 Device[i] = "";
             }
 
-            for (int i = 0; i <=NUM_DEVICE; i++)
+            for (int i = 0; i <= DEVICE_MAXIMUM - 1; i++)
             {
                 command.CommandText = "SELECT mac FROM device WHERE active_status= 'Y' and device_id = " + i.ToString();//Is MAC avalible?
+                command.ExecuteNonQuery();
                 Device[i] = Convert.ToString(command.ExecuteScalar());
 
                 //txtReceiveMessage.AppendText(Device[i] + Environment.NewLine);
 
             }
-          
 
-            command.ExecuteNonQuery();
+
+
             conn.Close();
 
         }
 
 
+
         void SendFromQueue()
         {
+            string MSG, SEND_TIME, Que_No, STATUS, PHONE_NUMBER, Rec, TRANSMODE, ORDERID;
+            string Packet;
+            string MESSAGE = "";
+            PHONE_NUMBER = "";
+            Rec = "";
+            TRANSMODE = "";
+            ORDERID = "";
 
+            Thread.Sleep(100);
 
-            while (true)
+            SQLiteConnection loadConnection = new SQLiteConnection("Data Source = database1.db3");
+            loadConnection.Open();
+
+            SQLiteDataAdapter hadapter = new SQLiteDataAdapter("Select * From RECORD Where STATUS='1'", loadConnection);
+
+            DataSet loadset = new DataSet();
+            hadapter.Fill(loadset);
+            loadConnection.Close(); ;
+            for (int i = 0; i < loadset.Tables[0].Rows.Count; i++)
             {
-                //variable anoucement------------------------------------------------
-                string Packet;
-                string   MESSAGE = SendQueue[Que_Sended, 0],
-                         PHONE_NUMBER = SendQueue[Que_Sended, 1],
-                         NO = SendQueue[Que_Sended, 2],
-                         Rec = SendQueue[Que_Sended, 3],
-                         TRANSMODE = SendQueue[Que_Sended, 4],
-                         ORDERID = SendQueue[Que_Sended, 5];
-                string MAC_Ready = "";
-                DeviceCheck();
-                //Check which Device is availible-----------------------------------
-                for (int i = 0; i < DEVICE_MAXIMUM; i++)
+
+                SEND_TIME = loadset.Tables[0].Rows[i]["SENDTIME"].ToString();
+                MSG = loadset.Tables[0].Rows[i]["MESSAGE"].ToString();
+                PHONE_NUMBER = loadset.Tables[0].Rows[i]["PHONE"].ToString();
+                Rec = loadset.Tables[0].Rows[i]["ID"].ToString();
+                Que_No = loadset.Tables[0].Rows[i]["NO"].ToString();
+                STATUS = loadset.Tables[0].Rows[i]["STATUS"].ToString();
+                TRANSMODE = loadset.Tables[0].Rows[i]["TRANSMITMODE"].ToString();
+                ORDERID = loadset.Tables[0].Rows[i]["ORDER_ID"].ToString();
+
+
+                var TIME_CONV = DateTime.Parse(SEND_TIME);
+                int TIME_CMOP = DateTime.Compare(TIME_CONV, DateTime.Now);
+
+                if (TIME_CMOP <= 0)
                 {
 
-                    if (Device[i] != "" && Device[i] != null)
+                    //-----
+                    //------------------------------
+                    string MAC_Ready = "";
+                    DeviceCheck();
+                    //Check which Device is availible-----------------------------------
+                    for (int k = 0; k < DEVICE_MAXIMUM; k++)
                     {
-                        MAC_Ready = Device[i];
-                        break;
+
+                        if (Device[k] != "" && Device[k] != null)
+                        {
+                            MAC_Ready = Device[k];
+                            break;
+
+                        }
+
+                    }
+                    //Check which Device is availible-----------------------------------
+
+                    //variable anoucement------------------------------------------------
+                    //----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+                    //----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                    //Select availible MAC address-------------------------------------- 
+
+
+
+
+                    if (MAC_Ready != "" && PHONE_NUMBER != "" && MAC_Ready != null && PHONE_NUMBER != null)
+                    {
+
+                        sqlite_connect = new SQLiteConnection("Data source=database1.db3");//建立資料庫連線
+                        sqlite_connect.Open(); //Open
+                        sqlite_cmd = sqlite_connect.CreateCommand();//create command
+                        SQLiteCommand cmd = new SQLiteCommand(sqlite_connect);
+
+                        sqlite_cmd.CommandText = "UPDATE RECORD SET STATUS='" + "2" + "' WHERE NO='" + Que_No + "'";
+                        sqlite_cmd.ExecuteNonQuery();
+                        sqlite_connect.Close();
+                        Thread.Sleep(50);
+                        //Pack the sending packet-------------------------------------------
+                        UPDATETIME = System.DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
+                        Packet = "{\"ID\":\"" + Rec + "\",\"ORDER_ID\":\"" + ORDERID + "\",\"TRANSMITMODE\":\"" + TRANSMODE + "\",\"PHONE\":\"" + PHONE_NUMBER + "\",\"MESSAGE\":\"" + MSG + "\",\"SENDTIME\":\"" + UPDATETIME + "\",\"MSG_LOG\":\"" + Que_No + "\"}";
+
+                        //Pack the sending packet-------------------------------------------
+                        //----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                        //sending message---------------------------------------------------
+                        var message = new MqttApplicationMessageBuilder()
+                                   .WithTopic(MAC_Ready)
+                                   .WithPayload(Packet)
+                                   .WithAtLeastOnceQoS()
+                                   .WithRetainFlag(false)
+                                   .Build();
+                        Task.Run(async () =>
+                        {
+                            await mqttClient.PublishAsync(message);//MESSAGE改成message
+                        });
+                        Console.WriteLine(Que_No + "已傳送\n");
+                        //sending message---------------------------------------------------
+                        //----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                        //Update active status of device---------------------------------------------------
+
+                        MySqlConnection conn = new MySqlConnection(connStr);
+                        MySqlCommand command = conn.CreateCommand();
+                        conn.Open();
+                        command.CommandText = "UPDATE device SET active_status = 'N' WHERE mac = '" + MAC_Ready + "'";
+                        command.ExecuteNonQuery();
+                        conn.Close();
+
 
                     }
 
+
                 }
-                //Check which Device is availible-----------------------------------
-              
-                //variable anoucement------------------------------------------------
-                //----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-                //----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-                //Select availible MAC address-------------------------------------- 
-
-
-
-
-                if (PHONE_NUMBER == null || MESSAGE == null || PHONE_NUMBER == "" || MESSAGE == ""||MAC_Ready =="")
-                {
-                    break;
-                }
-                else
-                {
-
-                    Thread.Sleep(50);
-                    //Pack the sending packet-------------------------------------------
-                    UPDATETIME = System.DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
-                    Packet = "{\"ID\":\"" + Rec + "\",\"ORDER_ID\":\"" + ORDERID + "\",\"TRANSMITMODE\":\"" + TRANSMODE + "\",\"PHONE\":\"" + PHONE_NUMBER + "\",\"MESSAGE\":\"" + MESSAGE + "\",\"SENDTIME\":\"" + UPDATETIME + "\",\"MSG_LOG\":\"" + NO + "\"}";
-
-                    //Pack the sending packet-------------------------------------------
-                    //----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-                    //sending message---------------------------------------------------
-                    var message = new MqttApplicationMessageBuilder()
-                               .WithTopic(MAC_Ready)
-                               .WithPayload(Packet)
-                               .WithAtMostOnceQoS()
-                               .WithRetainFlag(false)
-                               .Build();
-                    Task.Run(async () => {
-                        await mqttClient.PublishAsync(message);//MESSAGE改成message
-                    });
-                    Console.WriteLine(NO+"已傳送\n");
-                    //sending message---------------------------------------------------
-                    //----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-                    //Update active status of device---------------------------------------------------
-                    string dbHost = "192.168.3.123 ";//資料庫位址
-                    string dbUser = "samchou";//資料庫使用者帳號
-                    string dbPass = "chou1234";//資料庫使用者密碼
-                    string dbName = "sms";//資料庫名稱
-                    string connStr = "server=" + dbHost + ";uid=" + dbUser + ";pwd=" + dbPass + ";database=" + dbName;
-                    MySqlConnection conn = new MySqlConnection(connStr);
-                    MySqlCommand command = conn.CreateCommand();
-                    conn.Open();
-                    command.CommandText = "UPDATE device SET active_status = 'N' WHERE mac = '" + MAC_Ready + "'";
-                    command.ExecuteNonQuery();
-                    conn.Close();
-                    //Update active status of device---------------------------------------------------
-                    //----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-                    //clear recent queue--------------------------------
-
-                    for (int j = 0; j < 6; j++)
-                    {
-                        SendQueue[Que_Sended, j] = "";
-
-                    }
-                    //clear recent queue--------------------------------
-
-                    if (Que_Sended < 1000) Que_Sended++;
-                    else Que_Sended = 0;
-                }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                //Select availible MAC address--------------------------------------
-                //----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-                //Check if has lost value-------------------------------------------
-
-                //Check if has lost value-------------------------------------------
-                //----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
 
             }
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         }
-         void LoadInToQueue()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        void LoadInToQueue()
         {
 
-            string MSG, SEND_TIME,Que_No,STATUS, PHONE_NUMBER, Rec ,TRANSMODE,ORDERID;
+            string MSG, SEND_TIME, Que_No, STATUS, PHONE_NUMBER, Rec, TRANSMODE, ORDERID;
 
 
-           
 
-                try
+
+            try
+            {
+
+                Thread.Sleep(100);
+
+                SQLiteConnection loadConnection = new SQLiteConnection("Data Source = database1.db3");
+                loadConnection.Open();
+
+                SQLiteDataAdapter hadapter = new SQLiteDataAdapter("Select * From RECORD Where STATUS='1'", loadConnection);
+
+                DataSet loadset = new DataSet();
+                hadapter.Fill(loadset);
+                for (int i = 0; i < loadset.Tables[0].Rows.Count; i++)
                 {
 
-
-
-                    SQLiteConnection loadConnection = new SQLiteConnection("Data Source = database1.db3");
-                    loadConnection.Open();
-
-                    SQLiteDataAdapter hadapter = new SQLiteDataAdapter("Select * From RECORD Where STATUS='1'", loadConnection);
-
-                    DataSet loadset = new DataSet();
-                    hadapter.Fill(loadset);
-                for(int i = 0; i < loadset.Tables[0].Rows.Count; i++)
-                {
                     SEND_TIME = loadset.Tables[0].Rows[i]["SENDTIME"].ToString();
                     MSG = loadset.Tables[0].Rows[i]["MESSAGE"].ToString();
                     PHONE_NUMBER = loadset.Tables[0].Rows[i]["PHONE"].ToString();
@@ -299,7 +309,7 @@ namespace MqttServerTest
 
                     var TIME_CONV = DateTime.Parse(SEND_TIME);
                     int TIME_CMOP = DateTime.Compare(TIME_CONV, DateTime.Now);
-                  
+
                     if (TIME_CMOP <= 0)
                     {
                         SendQueue[Que_now, 0] = MSG;
@@ -329,30 +339,32 @@ namespace MqttServerTest
 
                 }
 
-                   
 
 
-               //123465
 
-                    
-                    
 
-                    loadConnection.Close(); ;
-                }
-                catch
-                {
-                   
-                    
-                }
-               
-            
+
+
+
+
+                loadConnection.Close(); ;
+            }
+            catch
+            {
+
+
+            }
+
+
         }
-            private void Form1_Load(object sender, EventArgs e)
+        private void Form1_Load(object sender, EventArgs e)
         {
             timer1.Enabled = false;
             timer2.Enabled = true;
-           
-            
+            textBox7.Text = "123";
+            txtIp.Text = "119.8.112.176";
+            CheckMSG();
+
         }
 
         private async void BtnPublish_Click(object sender, EventArgs e)
@@ -380,7 +392,7 @@ namespace MqttServerTest
             var message = new MqttApplicationMessageBuilder()
                 .WithTopic(topic)
                 .WithPayload(inputString)
-                .WithAtMostOnceQoS()
+                .WithAtLeastOnceQoS()
                 .WithRetainFlag(true)
                 .Build();
 
@@ -406,7 +418,7 @@ namespace MqttServerTest
             // Subscribe to a topic
             await mqttClient.SubscribeAsync(new TopicFilterBuilder()
                 .WithTopic(topic)
-                .WithAtMostOnceQoS()
+                .WithAtLeastOnceQoS()
                 .Build()
                 );
 
@@ -494,17 +506,17 @@ namespace MqttServerTest
 
                 await mqttClient.SubscribeAsync(new TopicFilterBuilder()
                 .WithTopic("pub")
-                .WithAtMostOnceQoS()
+                .WithAtLeastOnceQoS()
                 .Build()
                 );
                 await mqttClient.SubscribeAsync(new TopicFilterBuilder()
                 .WithTopic("pubb")
-                .WithAtMostOnceQoS()
+                .WithAtLeastOnceQoS()
                 .Build()
                 );
                 await mqttClient.SubscribeAsync(new TopicFilterBuilder()
                .WithTopic("pu")
-               .WithAtMostOnceQoS()
+               .WithAtLeastOnceQoS()
                .Build()
                );
                 //2.4.0
@@ -676,7 +688,7 @@ namespace MqttServerTest
                 curTime = DateTime.UtcNow;
                 txtReceiveMessage.AppendText($">> [{curTime.ToLongTimeString()}]");
                 txtReceiveMessage.AppendText("已断开MQTT连接！" + Environment.NewLine);
-                
+
             })));
 
             //Reconnecting
@@ -798,7 +810,7 @@ namespace MqttServerTest
         }
         private void MqttClient_ApplicationMessageReceived(object sender, MqttApplicationMessageReceivedEventArgs e)
         {
-           
+
             /* Invoke((new Action(() =>
                {
                    txtReceiveMessage.AppendText($">> {"### RECEIVED APPLICATION MESSAGE ###"}{Environment.NewLine}");
@@ -826,7 +838,7 @@ namespace MqttServerTest
                     Console.WriteLine("TRANSMITMODE : " + mydata.STRANSMITMODE + ", PHONE : " + mydata.PHONE + ", MESSAGE : " + mydata.MESSAGE + ", SENDTIME : " + mydata.SENDTIME);
                     TRANSMITMODE = mydata.TRANSMITMODE;
 
-                   
+
                     if (TRANSMITMODE == "A")
                     {
 
@@ -836,21 +848,18 @@ namespace MqttServerTest
                         sqlite_connect.Open(); //Open
                         sqlite_cmd = sqlite_connect.CreateCommand();//create command
                         SQLiteCommand recmd = new SQLiteCommand(sqlite_connect);
+                        Thread.Sleep(50);
                         UPDATETIME = System.DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
-                     
+
                         sqlite_cmd.CommandText = "INSERT INTO RECORD VALUES (null,'" + mydata.RECORD_ID + "','" + mydata.ID + "','" + mydata.ORDER_ID + "','" + mydata.TRANSMITMODE + "','" + TPHONE + "','" + mydata.MESSAGE + "','" + mydata.SENDTIME + "','" + "1" + "','" + "" + "','" + "" + "','" + mydata.CREATEDATE + "','" + UPDATETIME + "');";
                         sqlite_cmd.ExecuteNonQuery();//using behind every write cmd
                         txtReceiveMessage.AppendText("模式 : A " + "單筆號碼 : " + TPHONE + "已儲存");
-                      sqlite_cmd.CommandText = "SELECT NO FROM RECORD ORDER BY NO DESC" ;
-                          sqlite_cmd.ExecuteNonQuery();//using behind every write cmd
-                          string MSG_LOG = sqlite_cmd.ExecuteScalar().ToString();
+                        sqlite_cmd.CommandText = "SELECT NO FROM RECORD ORDER BY NO DESC";
+                        sqlite_cmd.ExecuteNonQuery();//using behind every write cmd
+                        string MSG_LOG = sqlite_cmd.ExecuteScalar().ToString();
                         sqlite_connect.Close();
 
-                        string dbHost = "192.168.3.123 ";//資料庫位址
-                        string dbUser = "samchou";//資料庫使用者帳號
-                        string dbPass = "chou1234";//資料庫使用者密碼
-                        string dbName = "sms";//資料庫名稱
-                        string connStr = "server=" + dbHost + ";uid=" + dbUser + ";pwd=" + dbPass + ";database=" + dbName;
+
                         MySqlConnection conn = new MySqlConnection(connStr);
                         MySqlCommand command = conn.CreateCommand();
                         conn.Open();
@@ -859,11 +868,21 @@ namespace MqttServerTest
                         //command.CommandText = "UPDATE record SET status = '2' WHERE msg_log = '" + mydata.MSG_LOG + "'";
                         command.CommandText = "Insert into record(record_id,id,order_id,transmitmode,phone,message,sendtime,status,msg_log,mac,updatedate) values(null,'" + mydata.ID + "','" + mydata.ORDER_ID + "','" + mydata.TRANSMITMODE + "','" + mydata.PHONE + "','" + mydata.MESSAGE + "','" + mydata.SENDTIME + "','" + "1" + "','" + MSG_LOG + "','" + mydata.MAC + "','" + UPDATETIME + "')";
                         command.ExecuteNonQuery();
-                        
+
                         conn.Close();
                     }
                     if (TRANSMITMODE == "F")
                     {
+
+                        string dbHost = "119.8.101.21";//資料庫位址
+                        string dbUser = "1234";//資料庫使用者帳號
+                        string dbPass = "1234";//資料庫使用者密碼
+                        string dbName = "sms";//資料庫名稱
+                        string connStr = "server=" + dbHost + ";uid=" + dbUser + ";pwd=" + dbPass + ";database=" + dbName;
+                        MySqlConnection conn = new MySqlConnection(connStr);
+                        MySqlCommand command = conn.CreateCommand();
+                        conn.Open();
+                        Thread.Sleep(50);
                         TPHONE = mydata.PHONE;
                         string[] strArr = TPHONE.Split(',');
                         sqlite_connect = new SQLiteConnection("Data source=database1.db3");
@@ -875,51 +894,39 @@ namespace MqttServerTest
                         string result = string.Empty;
                         int a = Int32.Parse(strArr.Length.ToString());
 
-
-
-                        string dbHost = "192.168.3.123 ";//資料庫位址
-                        string dbUser = "samchou";//資料庫使用者帳號
-                        string dbPass = "chou1234";//資料庫使用者密碼
-                        string dbName = "sms";//資料庫名稱
-                        string connStr = "server=" + dbHost + ";uid=" + dbUser + ";pwd=" + dbPass + ";database=" + dbName;
-                        MySqlConnection conn = new MySqlConnection(connStr);
-                        MySqlCommand command = conn.CreateCommand();
-                        conn.Open();
-
-
-
                         for (int i = 0; i < a; i++)
                         {
-                          Console.WriteLine(strArr[i]);
-                          sqlite_cmd.CommandText = "INSERT INTO RECORD VALUES (null,'" + mydata.RECORD_ID + "','" + mydata.ID + "','" + mydata.ORDER_ID + "','" + mydata.TRANSMITMODE + "','" + strArr[i] + "','" + mydata.MESSAGE + "','" + mydata.SENDTIME + "','" + "1" + "','" + "" + "','" + mydata.MAC + "','" + mydata.CREATEDATE + "','" + UPDATETIME + "');";
-                          sqlite_cmd.ExecuteNonQuery();//using behind every write cmd
-                          txtReceiveMessage.AppendText("模式 : F " + "群發號碼 : "+ result + "已儲存");
+                            Thread.Sleep(50);
+                            Console.WriteLine(strArr[i]);
+                            sqlite_cmd.CommandText = "INSERT INTO RECORD VALUES (null,'" + mydata.RECORD_ID + "','" + mydata.ID + "','" + mydata.ORDER_ID + "','" + mydata.TRANSMITMODE + "','" + strArr[i] + "','" + mydata.MESSAGE + "','" + mydata.SENDTIME + "','" + "1" + "','" + "" + "','" + mydata.MAC + "','" + mydata.CREATEDATE + "','" + UPDATETIME + "');";
+                            sqlite_cmd.ExecuteNonQuery();//using behind every write cmd
+                            txtReceiveMessage.AppendText("模式 : F " + "群發號碼 : " + result + "已儲存");
 
-                          //sqlite_cmd.CommandText = "SELECT * FROM RECORD ORDER BY NO ";
-                         // sqlite_cmd.ExecuteNonQuery();//using behind every write cmd
+                            //sqlite_cmd.CommandText = "SELECT * FROM RECORD ORDER BY NO ";
+                            // sqlite_cmd.ExecuteNonQuery();//using behind every write cmd
 
-                          sqlite_cmd.CommandText = "SELECT NO FROM RECORD ORDER BY NO DESC" ;
-                          sqlite_cmd.ExecuteNonQuery();//using behind every write cmd
-                          string MSG_LOG = sqlite_cmd.ExecuteScalar().ToString();
+                            sqlite_cmd.CommandText = "SELECT NO FROM RECORD ORDER BY NO DESC";
+                            sqlite_cmd.ExecuteNonQuery();//using behind every write cmd
+                            string MSG_LOG = sqlite_cmd.ExecuteScalar().ToString();
 
                             UPDATETIME = System.DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
                             //command.CommandText = "UPDATE record SET status = '2' WHERE msg_log = '" + mydata.MSG_LOG + "'";
-                          command.CommandText = "Insert into record(record_id,id,order_id,transmitmode,phone,message,sendtime,status,msg_log,mac,updatedate) values(null,'" + mydata.ID + "','" + mydata.ORDER_ID + "','" + mydata.TRANSMITMODE + "','" + mydata.PHONE + "','" + mydata.MESSAGE + "','" + mydata.SENDTIME + "','" + "1" + "','" + MSG_LOG + "','" + mydata.MAC + "','" + UPDATETIME + "')";
-                          command.ExecuteNonQuery();
+                            command.CommandText = "Insert into record(record_id,id,order_id,transmitmode,phone,message,sendtime,status,msg_log,mac,updatedate) values(null,'" + mydata.ID + "','" + mydata.ORDER_ID + "','" + mydata.TRANSMITMODE + "','" + strArr[i] + "','" + mydata.MESSAGE + "','" + mydata.SENDTIME + "','" + "1" + "','" + MSG_LOG + "','" + mydata.MAC + "','" + UPDATETIME + "')";
+                            command.ExecuteNonQuery();
                         }
-                      
+
                         sqlite_connect.Close();
 
-                        
 
-                       
+
+
 
                         conn.Close();
                     }
 
                 }
 
-                
+
                 if (aa.Substring(2, 3).Equals("SID"))
                 {
                     if (!IsValidJson(aa))
@@ -937,20 +944,18 @@ namespace MqttServerTest
 
                         txtReceiveMessage.AppendText($"{Environment.NewLine}簡訊傳送成功!{Environment.NewLine}");
 
-                        string dbHost = "192.168.3.123 ";//資料庫位址
-                        string dbUser = "samchou";//資料庫使用者帳號
-                        string dbPass = "chou1234";//資料庫使用者密碼
-                        string dbName = "sms";//資料庫名稱
-                        string connStr = "server=" + dbHost + ";uid=" + dbUser + ";pwd=" + dbPass + ";database=" + dbName;
+
                         MySqlConnection conn = new MySqlConnection(connStr);
                         MySqlCommand command = conn.CreateCommand();
                         conn.Open();
-                
+
                         UPDATETIME = System.DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
                         command.CommandText = "UPDATE record SET status = '2' WHERE msg_log = '" + mydata.MSG_LOG + "'";
-                       //command.CommandText = "Insert into record(record_id,id,order_id,transmitmode,phone,message,sendtime,status,msg_log,mac,updatedate) values(null,'" + mydata.SID + "','" + mydata.ORDER_ID + "','" + mydata.STRANSMITMODE + "','" + mydata.PHONE + "','" + mydata.MESSAGE + "','" + mydata.SENDTIME + "','" + "2" + "','" + mydata.MSG_LOG + "','" + mydata.MAC + "','" + UPDATETIME + "')";
+                        //command.CommandText = "Insert into record(record_id,id,order_id,transmitmode,phone,message,sendtime,status,msg_log,mac,updatedate) values(null,'" + mydata.SID + "','" + mydata.ORDER_ID + "','" + mydata.STRANSMITMODE + "','" + mydata.PHONE + "','" + mydata.MESSAGE + "','" + mydata.SENDTIME + "','" + "2" + "','" + mydata.MSG_LOG + "','" + mydata.MAC + "','" + UPDATETIME + "')";
                         command.ExecuteNonQuery();
-                        command.CommandText = "UPDATE record SET mac = '"+mydata.MAC+"' WHERE msg_log = '" + mydata.MSG_LOG + "'";
+                        command.CommandText = "UPDATE record SET mac = '" + mydata.MAC + "' WHERE msg_log = '" + mydata.MSG_LOG + "'";
+                        command.ExecuteNonQuery();
+                        command.CommandText = "UPDATE record SET updatedate = '" + UPDATETIME + "' WHERE msg_log = '" + mydata.MSG_LOG + "'";
                         command.ExecuteNonQuery();
                         // bool insert = true; 
                         /*  while (insert)
@@ -970,16 +975,12 @@ namespace MqttServerTest
                 }
 
                 if ((aa.Substring(2, 5).Equals("READY")))
-                { 
-                   
+                {
+
                     if (!IsValidJson(aa))
                         return;
                     Data mydata = JsonConvert.DeserializeObject<Data>(aa);
-                    string dbHost = "192.168.3.123 ";//資料庫位址
-                    string dbUser = "samchou";//資料庫使用者帳號
-                    string dbPass = "chou1234";//資料庫使用者密碼
-                    string dbName = "sms";//資料庫名稱
-                    string connStr = "server=" + dbHost + ";uid=" + dbUser + ";pwd=" + dbPass + ";database=" + dbName;
+
                     MySqlConnection conn = new MySqlConnection(connStr);
                     MySqlCommand command = conn.CreateCommand();
                     conn.Open();
@@ -990,7 +991,7 @@ namespace MqttServerTest
                     command.ExecuteReader();
 
                     conn.Close();
-                    txtReceiveMessage.AppendText($"{ Environment.NewLine}"+ UPDATETIME +"已更新裝置:"+ mydata.READY);
+                    txtReceiveMessage.AppendText($"{ Environment.NewLine}" + UPDATETIME + "已更新裝置:" + mydata.READY);
 
                 }
                 /*if (aa.Substring(0, 6).Equals("UserId"))
@@ -1136,7 +1137,7 @@ namespace MqttServerTest
                  string ChannelAccessToken = "OzoeHFeqM23uMJoNP1LYBIALAaWlS5+6VIlcwAjOoqmbWVxvjtz4ThDd/c4iYKR2PCDOO3iktsvKd+4EI0FNFONGQ7LAhDzg8LnrDE3AfR2p96op3QQeupSYSfferNXpGSl86nkiXFBpOOHV9T2QtwdB04t89/1O/w1cDnyilFU=";
                  isRock.LineBot.Utility.PushMessage("U1d8f66d1f8efa6d24fc2e218fd0a9172", aa.ToString(), ChannelAccessToken);
              }*/
-           
+
         }
         void Createdatabase()
         {
@@ -1150,7 +1151,7 @@ namespace MqttServerTest
 
             sqlite_connect.Open();// Open
             sqlite_cmd = sqlite_connect.CreateCommand();//create command
-            
+
             sqlite_cmd.CommandText = @"CREATE TABLE IF NOT EXISTS RECORD (NO INTEGER PRIMARY KEY AUTOINCREMENT,RECORD_ID TEXT,ID TEXT,ORDER_ID TEXT,TRANSMITMODE TEXT,PHONE TEXT,MESSAGE TEXT,SENDTIME TEXT,STATUS TEXT,MSG_LOG TEXT,MAC TEXT,CREATEDATE TEXT,UPDATEDATE TEXT)";
             sqlite_cmd.ExecuteNonQuery(); //using behind every write cmd
             sqlite_cmd.CommandText = @"CREATE TABLE IF NOT EXISTS LINEIOT (NO INTEGER PRIMARY KEY AUTOINCREMENT,LINEUSERID TEXT, MAC TEXT,HIGHVALUE TEXT, LOWVALUE TEXT, ONLINETIME TEXT)";
@@ -1199,7 +1200,8 @@ namespace MqttServerTest
                     txtReceiveMessage.AppendText($">> {LINEUSERID + "使用者:已註冊此序號:" + MAC}{Environment.NewLine}");
                     puberr = "eor:" + LINEUSERID + "使用者:已註冊此序號:" + MAC;
                     // CreateMessageWithAttachment("rsx-linebot@rsx.com.tw", EMAIL, "iot測試", "您註冊失敗!\n您已註冊此序號:" + MAC + "\n請再輸入其他有效序號\n謝謝您!");
-                    Task.Run(async () => {
+                    Task.Run(async () =>
+                    {
                         await Publisherr();
                     });
                     return;
@@ -1209,7 +1211,8 @@ namespace MqttServerTest
                     txtReceiveMessage.AppendText($">> {LINEUSERID + "使用者:此序號" + MAC + "已被其他使用者註冊"}{Environment.NewLine}");
                     puberr = "err:" + LINEUSERID + "使用者:此序號" + MAC + "已被其他使用者註冊";
                     // CreateMessageWithAttachment("rsx-linebot@rsx.com.tw", EMAIL, "iot測試", "您註冊失敗!\n此序號:" + MAC + "已被其他使用者註冊\n請再輸入其他有效序號\n謝謝您!");
-                    Task.Run(async () => {
+                    Task.Run(async () =>
+                    {
                         await Publisherr();
                     });
                     return;
@@ -1228,7 +1231,8 @@ namespace MqttServerTest
                     pubsuc = "succeeded:" + LINEUSERID + "使用者:此序號" + MAC + "註冊成功";
                     // CreateMessageWithAttachment("rsx-linebot@rsx.com.tw", EMAIL, "iot測試", "您已註冊成功!\n裝置帳號:" + MAC + "\n裝置密碼:" + MAC + "\n謝謝您!");
 
-                    Task.Run(async () => {
+                    Task.Run(async () =>
+                    {
                         await Publishline();
                     });
                     return;
@@ -1556,7 +1560,7 @@ namespace MqttServerTest
             var message = new MqttApplicationMessageBuilder()
                 .WithTopic(topic)
                 .WithPayload(inputString)
-                .WithAtMostOnceQoS()
+                .WithAtLeastOnceQoS()
                 .WithRetainFlag(true)
                 .Build();
 
@@ -1571,7 +1575,7 @@ namespace MqttServerTest
             var message = new MqttApplicationMessageBuilder()
                 .WithTopic(topic)
                 .WithPayload(inputString)
-                .WithAtMostOnceQoS()
+                .WithAtLeastOnceQoS()
                 .WithRetainFlag(true)
                 .Build();
 
@@ -1587,13 +1591,14 @@ namespace MqttServerTest
             Thread.Sleep(1000);
             timer1.Enabled = true;
             timer3.Enabled = true;
+
         }
         private static IMqttServer mqttServer = null;
         private static List<string> connectedClientId = new List<string>();
         private static int LINEUSERID_count;
         private string UPDATETIME;
         private string TPHONE;
-      
+
 
         private void btnLogout_Click(object sender, EventArgs e)
         {
@@ -1723,18 +1728,43 @@ namespace MqttServerTest
                 c_u.Add("7CE9B2286F24", "7CE9B2286F24");
                 c_u.Add("54E9B3286F24", "54E9B3286F24");
 
-                c_u.Add("ECDB9512CFA4", "ECDB9512CFA4"); 
-                c_u.Add("E44A9612CFA4", "E44A9612CFA4"); 
-                c_u.Add("2C9F9712CFA4", "2C9F9712CFA4"); 
-                c_u.Add("4CF0A4286F24", "4CF0A4286F24"); 
-                c_u.Add("CCE69612CFA4", "CCE69612CFA4"); 
-                c_u.Add("78C99612CFA4", "78C99612CFA4"); 
-                c_u.Add("744E9612CFA4", "744E9612CFA4"); 
-                c_u.Add("A8859612CFA4", "A8859612CFA4"); 
-                c_u.Add("14249612CFA4", "14249612CFA4"); 
+                c_u.Add("ECDB9512CFA4", "ECDB9512CFA4");
+                c_u.Add("E44A9612CFA4", "E44A9612CFA4");
+                c_u.Add("2C9F9712CFA4", "2C9F9712CFA4");
+                c_u.Add("4CF0A4286F24", "4CF0A4286F24");
+                c_u.Add("CCE69612CFA4", "CCE69612CFA4");
+                c_u.Add("78C99612CFA4", "78C99612CFA4");
+                c_u.Add("ACC125C40A24", "ACC125C40A24");//-------------------------------------tmep
+                c_u.Add("744E9612CFA4", "744E9612CFA4");
+                c_u.Add("A8859612CFA4", "A8859612CFA4");
+                c_u.Add("14249612CFA4", "14249612CFA4");
                 c_u.Add("F4399612CFA4", "F4399612CFA4");
                 c_u.Add("A85B9612CFA4", "A85B9612CFA4");
                 c_u.Add("247A9612CFA4", "247A9612CFA4");
+                c_u.Add("14C29612CFA4", "14C29612CFA4");
+                c_u.Add("ECA65F286F24", "ECA65F286F24");
+
+                //
+
+
+
+
+                c_u.Add("0C965F286F24", "0C965F286F24");
+                c_u.Add("A02060286F24", "A02060286F24");
+                c_u.Add("9C6C5F286F24", "9C6C5F286F24");
+                c_u.Add("F0B85F286F24", "F0B85F286F24");
+
+                c_u.Add("780761286F24", "780761286F24");
+                c_u.Add("149F9712CFA4", "149F9712CFA4");
+                c_u.Add("049F9712CFA4", "049F9712CFA4");
+                c_u.Add("EC0D61286F24", "EC0D61286F24");
+                c_u.Add("880C61286F24", "880C61286F24");
+
+
+                c_u.Add("7C315F286F24", "7C315F286F24");
+                c_u.Add("049B9712CFA4", "049B9712CFA4");
+                c_u.Add("98475F286F24", "98475F286F24");
+                c_u.Add("B07A5F286F24", "B07A5F286F24");
                 /*  for (int i=0; i< LINEUSERID_count; i++)
                  {
                      SQLiteConnection c_dbConnection = new SQLiteConnection("Data Source = database1.db3");
@@ -1768,11 +1798,31 @@ namespace MqttServerTest
                 u_psw.Add("CCE69612CFA4", "CCE69612CFA4");
                 u_psw.Add("78C99612CFA4", "78C99612CFA4");
                 u_psw.Add("744E9612CFA4", "744E9612CFA4");
+                u_psw.Add("ACC125C40A24", "ACC125C40A24");//ACC125C40A24-------------------------
                 u_psw.Add("A8859612CFA4", "A8859612CFA4");
                 u_psw.Add("14249612CFA4", "14249612CFA4");
                 u_psw.Add("F4399612CFA4", "F4399612CFA4");
                 u_psw.Add("A85B9612CFA4", "A85B9612CFA4");
                 u_psw.Add("247A9612CFA4", "247A9612CFA4");
+                u_psw.Add("14C29612CFA4", "14C29612CFA4");
+                u_psw.Add("ECA65F286F24", "ECA65F286F24");
+
+                u_psw.Add("0C965F286F24", "0C965F286F24");
+                u_psw.Add("A02060286F24", "A02060286F24");
+                u_psw.Add("9C6C5F286F24", "9C6C5F286F24");
+                u_psw.Add("F0B85F286F24", "F0B85F286F24");
+
+
+                u_psw.Add("780761286F24", "780761286F24");
+                u_psw.Add("149F9712CFA4", "149F9712CFA4");
+                u_psw.Add("049F9712CFA4", "049F9712CFA4");
+                u_psw.Add("EC0D61286F24", "EC0D61286F24");
+                u_psw.Add("880C61286F24", "880C61286F24");
+
+                u_psw.Add("7C315F286F24", "7C315F286F24");
+                u_psw.Add("049B9712CFA4", "049B9712CFA4");
+                u_psw.Add("98475F286F24", "98475F286F24");
+                u_psw.Add("B07A5F286F24", "B07A5F286F24");
                 /* for (int i = 0; i < LINEUSERID_count; i++)
                  {
                      SQLiteConnection c_dbConnection = new SQLiteConnection("Data Source = database1.db3");
@@ -1848,7 +1898,7 @@ namespace MqttServerTest
             var message = new MqttApplicationMessageBuilder()
                 .WithTopic(topic)
                 .WithPayload(msg)
-                .WithAtMostOnceQoS()
+                .WithAtLeastOnceQoS()
                 .WithRetainFlag()
                 .Build();
             await mqttServer.PublishAsync(message);
@@ -1861,7 +1911,7 @@ namespace MqttServerTest
             var message = new MqttApplicationMessageBuilder()
                 .WithTopic(topic)
                 .WithPayload(msg)
-                .WithAtMostOnceQoS()
+                .WithAtLeastOnceQoS()
                 .WithRetainFlag(false)
                 .Build();
             await mqttServer.PublishAsync(message);
@@ -1874,7 +1924,7 @@ namespace MqttServerTest
             var message = new MqttApplicationMessageBuilder()
                 .WithTopic(topic)
                 .WithPayload(msg)
-                .WithAtMostOnceQoS()
+                .WithAtLeastOnceQoS()
                 .WithRetainFlag(false)
                 .Build();
             await mqttServer.PublishAsync(message);
@@ -1889,7 +1939,7 @@ namespace MqttServerTest
             List<TopicFilter> topicFilter = new List<TopicFilter>();
             topicFilter.Add(new TopicFilterBuilder()
                 .WithTopic(topic)
-                .WithAtMostOnceQoS()
+                .WithAtLeastOnceQoS()
                 .Build());
             //给"client001"订阅了主题为topicFilter的payload
             mqttServer.SubscribeAsync("client001", topicFilter);
@@ -1978,7 +2028,7 @@ namespace MqttServerTest
             var message = new MqttApplicationMessageBuilder()
                .WithTopic(topic)
                .WithPayload(inputString)
-               .WithAtMostOnceQoS()
+               .WithAtLeastOnceQoS()
                .WithRetainFlag(true)
                .Build();
 
@@ -2016,7 +2066,7 @@ namespace MqttServerTest
             var message = new MqttApplicationMessageBuilder()
                 .WithTopic(topic)
                 .WithPayload(inputString)
-                .WithAtMostOnceQoS()
+                .WithAtLeastOnceQoS()
                 .WithRetainFlag(true)
                 .Build();
 
@@ -2052,7 +2102,7 @@ namespace MqttServerTest
             var message = new MqttApplicationMessageBuilder()
                 .WithTopic(topic)
                 .WithPayload(inputString)
-                .WithAtMostOnceQoS()
+                .WithAtLeastOnceQoS()
                 .WithRetainFlag(true)
                 .Build();
 
@@ -2088,7 +2138,7 @@ namespace MqttServerTest
             var message = new MqttApplicationMessageBuilder()
                 .WithTopic(topic)
                 .WithPayload(inputString)
-                .WithAtMostOnceQoS()
+                .WithAtLeastOnceQoS()
                 .WithRetainFlag(true)
                 .Build();
 
@@ -2312,81 +2362,71 @@ namespace MqttServerTest
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            //Que_now = 0;
-            //Que_Sended = 0;
-            SendFromQueue();
-            LoadInToQueue();
+           
+            Thread t1 = new Thread(SendFromQueue);
 
-           
+            t1.Start();
+            t1.Join();
 
-           
-            
-           
-            
         }
         void CheckMSG()
         {
+            /*
+           for(int i = 0; i < 1000; i++)
+            {
+                for(int j = 0; j < 6; j++)
+                {
+                    SendQueue[i, j] = "";
+                }
+            }*/
+
             //txtReceiveMessage.AppendText($"test{Environment.NewLine}");
-            string dbHost = "192.168.3.123 ";//資料庫位址
-            string dbUser = "samchou";//資料庫使用者帳號
-            string dbPass = "chou1234";//資料庫使用者密碼
-            string dbName = "sms";//資料庫名稱
-            string connStr = "server=" + dbHost + ";uid=" + dbUser + ";pwd=" + dbPass + ";database=" + dbName;
+            Thread.Sleep(100);
             MySqlConnection conn = new MySqlConnection(connStr);
             MySqlCommand command = conn.CreateCommand();
             conn.Open();
+            MySqlDataAdapter hadapter = new MySqlDataAdapter("Select * From record Where status='1'", conn);
 
-            SQLiteConnection compConnection = new SQLiteConnection("Data Source = database1.db3");
-            compConnection.Open();
-          
-            SQLiteDataAdapter hadapter = new SQLiteDataAdapter("Select * From RECORD Where STATUS='2'", compConnection);
-  
             DataSet hset = new DataSet();
             hadapter.Fill(hset);
 
-           
-            int check = 0;
-            while (true)
+            sqlite_connect = new SQLiteConnection("Data source=database1.db3");//建立資料庫連線
+            sqlite_connect.Open(); //Open
+            sqlite_cmd = sqlite_connect.CreateCommand();//create command
+            SQLiteCommand cmd = new SQLiteCommand(sqlite_connect);
+
+            for (int i = 0; i < hset.Tables[0].Rows.Count; i++)
             {
-                try
+                var TIME_CONV = DateTime.Parse(hset.Tables[0].Rows[i]["sendtime"].ToString());
+                string min_comp = DateDiff(TIME_CONV, DateTime.Now);
+
+                if (int.Parse(min_comp) >= 1)
                 {
-
-
-
-                    string comp= hset.Tables[0].Rows[check]["NO"].ToString();
-                    command.CommandText = "SELECT COUNT(*) FROM record WHERE msg_log = '"+comp+"'";
-                    int N_comp = Convert.ToInt32(command.ExecuteScalar());
-                    if (N_comp == 0)
-                    {
-                        sqlite_connect = new SQLiteConnection("Data source=database1.db3");//建立資料庫連線
-                        sqlite_connect.Open(); //Open
-                        sqlite_cmd = sqlite_connect.CreateCommand();//create command
-                        SQLiteCommand cmd = new SQLiteCommand(sqlite_connect);
-                        sqlite_cmd.CommandText = "UPDATE RECORD SET STATUS='1' WHERE NO='" + comp + "'";
-                        sqlite_cmd.ExecuteNonQuery();
-                        sqlite_connect.Close();
-                    }
+                    string no = hset.Tables[0].Rows[i]["msg_log"].ToString();
+                    sqlite_cmd.CommandText = "UPDATE RECORD SET STATUS='1' WHERE NO='" + no + "'";
+                    sqlite_cmd.ExecuteNonQuery();
                 }
-                catch
-                {
-                    break;
-                }
-                check++;
+
+
             }
 
-            compConnection.Close();
-
-
-            //command.ExecuteNonQuery();
+            sqlite_connect.Close();
             conn.Close();
+
+            Console.WriteLine("--------------------------------Messages Checked--------------------------------");
+
+
+
         }
+
+
+
+
+
+
         void CLR_Device()
         {
-            string dbHost = "192.168.3.123 ";//資料庫位址
-            string dbUser = "samchou";//資料庫使用者帳號
-            string dbPass = "chou1234";//資料庫使用者密碼
-            string dbName = "sms";//資料庫名稱
-            string connStr = "server=" + dbHost + ";uid=" + dbUser + ";pwd=" + dbPass + ";database=" + dbName;
+
             MySqlConnection conn = new MySqlConnection(connStr);
             MySqlCommand command = conn.CreateCommand();
             conn.Open();
@@ -2397,11 +2437,7 @@ namespace MqttServerTest
 
         private void lineiot_0424_1630_FormClosing(object sender, FormClosingEventArgs e)
         {
-            string dbHost = "192.168.3.123 ";//資料庫位址
-            string dbUser = "samchou";//資料庫使用者帳號
-            string dbPass = "chou1234";//資料庫使用者密碼
-            string dbName = "sms";//資料庫名稱
-            string connStr = "server=" + dbHost + ";uid=" + dbUser + ";pwd=" + dbPass + ";database=" + dbName;
+
             MySqlConnection conn = new MySqlConnection(connStr);
             MySqlCommand command = conn.CreateCommand();
             conn.Open();
@@ -2409,8 +2445,17 @@ namespace MqttServerTest
             command.ExecuteNonQuery();
             conn.Close();
         }
+        private string DateDiff(DateTime DateTime1, DateTime DateTime2)
+        {
+            string dateDiff = null;
+            TimeSpan ts1 = new TimeSpan(DateTime1.Ticks);
+            TimeSpan ts2 = new TimeSpan(DateTime2.Ticks);
+            TimeSpan ts = ts1.Subtract(ts2).Duration();
+            dateDiff = ts.Minutes.ToString();
+            Console.WriteLine(dateDiff);
+            return dateDiff;
+        }
 
-       
 
         private void panel1_Paint(object sender, PaintEventArgs e)
         {
@@ -2431,5 +2476,44 @@ namespace MqttServerTest
         {
 
         }
+
+
+
+        private void button32_Click_1(object sender, EventArgs e)
+        {
+            string Packet;
+            string STR = "123";
+            Thread.Sleep(50);
+            //Pack the sending packet-------------------------------------------
+            UPDATETIME = System.DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
+            //Packet = "{\"ID\":\"" + STR + "\",\"ORDER_ID\":\"" + STR + "\",\"TRANSMITMODE\":\"" + STR + "\",\"PHONE\":\"" + STR + "\",\"MESSAGE\":\"" + STR + "\",\"SENDTIME\":\"" + STR + "\",\"MSG_LOG\":\"" + STR + "\"}";
+            Packet = textBox7.Text;
+            //Pack the sending packet-------------------------------------------
+            //----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+            //sending message---------------------------------------------------
+            var message = new MqttApplicationMessageBuilder()
+                       .WithTopic("ACC125C40A24")
+                       .WithPayload(Packet)
+                       .WithAtLeastOnceQoS()
+                       .WithRetainFlag(false)
+                       .Build();
+            Task.Run(async () =>
+            {
+                await mqttClient.PublishAsync(message);//MESSAGE改成message
+            });
+            Console.WriteLine(STR + "已傳送\n");
+        }
+
+        private void textBox7_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtIp_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+
     }
 }

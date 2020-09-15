@@ -168,6 +168,8 @@
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.timer2 = new System.Windows.Forms.Timer(this.components);
             this.timer3 = new System.Windows.Forms.Timer(this.components);
+            this.button32 = new System.Windows.Forms.Button();
+            this.textBox7 = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -355,7 +357,8 @@
             this.txtIp.Name = "txtIp";
             this.txtIp.Size = new System.Drawing.Size(121, 33);
             this.txtIp.TabIndex = 18;
-            this.txtIp.Text = "vm1.rsx.com.tw";
+            this.txtIp.Text = "119.8.112.176";
+            this.txtIp.TextChanged += new System.EventHandler(this.txtIp_TextChanged);
             // 
             // label7
             // 
@@ -775,7 +778,7 @@
             this.panel1.Controls.Add(this.button11);
             this.panel1.Controls.Add(this.button10);
             this.panel1.Controls.Add(this.button9);
-            this.panel1.Location = new System.Drawing.Point(39, 12);
+            this.panel1.Location = new System.Drawing.Point(1086, 52);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1101, 510);
             this.panel1.TabIndex = 42;
@@ -1771,25 +1774,45 @@
             // 
             // timer1
             // 
-            this.timer1.Interval = 300;
+            this.timer1.Interval = 1000;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // timer2
             // 
-            this.timer2.Interval = 900000;
+            this.timer2.Interval = 300000;
             this.timer2.Tick += new System.EventHandler(this.timer2_Tick);
             // 
             // timer3
             // 
-            this.timer3.Interval = 60000;
+            this.timer3.Interval = 180000;
             this.timer3.Tick += new System.EventHandler(this.timer3_Tick);
+            // 
+            // button32
+            // 
+            this.button32.Location = new System.Drawing.Point(74, 12);
+            this.button32.Name = "button32";
+            this.button32.Size = new System.Drawing.Size(75, 23);
+            this.button32.TabIndex = 47;
+            this.button32.Text = "button32";
+            this.button32.UseVisualStyleBackColor = true;
+            this.button32.Click += new System.EventHandler(this.button32_Click_1);
+            // 
+            // textBox7
+            // 
+            this.textBox7.Location = new System.Drawing.Point(155, 13);
+            this.textBox7.Name = "textBox7";
+            this.textBox7.Size = new System.Drawing.Size(100, 23);
+            this.textBox7.TabIndex = 48;
+            this.textBox7.TextChanged += new System.EventHandler(this.textBox7_TextChanged);
             // 
             // lineiot_0424_1630
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(1472, 607);
+            this.ClientSize = new System.Drawing.Size(1484, 607);
+            this.Controls.Add(this.textBox7);
+            this.Controls.Add(this.button32);
             this.Controls.Add(this.textBox6);
             this.Controls.Add(this.button31);
             this.Controls.Add(this.panel1);
@@ -1995,6 +2018,8 @@
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.Timer timer2;
         private System.Windows.Forms.Timer timer3;
+        private System.Windows.Forms.Button button32;
+        private System.Windows.Forms.TextBox textBox7;
     }
 }
 

@@ -83,8 +83,8 @@ namespace MqttServerTest
         public string tt { get; private set; }
         //txtReceiveMessage.AppendText($"test{Environment.NewLine}");
         const string dbHost = "119.8.101.21";//資料庫位址
-        const string dbUser = "1234";//資料庫使用者帳號
-        const string dbPass = "1234";//資料庫使用者密碼
+        const string dbUser = "samchou";//資料庫使用者帳號
+        const string dbPass = "LNSwigRV6t5HDK98";//資料庫使用者密碼
         const string dbName = "sms";//資料庫名稱
         const string connStr = "server=" + dbHost + ";uid=" + dbUser + ";pwd=" + dbPass + ";database=" + dbName;
 
@@ -237,6 +237,10 @@ namespace MqttServerTest
                         conn.Open();
                         command.CommandText = "UPDATE device SET active_status = 'N' WHERE mac = '" + MAC_Ready + "'";
                         command.ExecuteNonQuery();
+                        command.CommandText = "UPDATE record SET mac = '"+MAC_Ready+"' WHERE msg_log = '" + Que_No + "'";
+                        command.ExecuteNonQuery();
+                        command.CommandText = "UPDATE record SET status = '1' WHERE msg_log = '" + Que_No + "'";
+                        command.ExecuteNonQuery();
                         conn.Close();
 
 
@@ -361,6 +365,8 @@ namespace MqttServerTest
         {
             timer1.Enabled = false;
             timer2.Enabled = true;
+            timer3.Enabled = true;
+            CLR_Device();
             textBox7.Text = "123";
             txtIp.Text = "119.8.112.176";
             CheckMSG();
@@ -866,7 +872,7 @@ namespace MqttServerTest
 
                         UPDATETIME = System.DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
                         //command.CommandText = "UPDATE record SET status = '2' WHERE msg_log = '" + mydata.MSG_LOG + "'";
-                        command.CommandText = "Insert into record(record_id,id,order_id,transmitmode,phone,message,sendtime,status,msg_log,mac,updatedate) values(null,'" + mydata.ID + "','" + mydata.ORDER_ID + "','" + mydata.TRANSMITMODE + "','" + mydata.PHONE + "','" + mydata.MESSAGE + "','" + mydata.SENDTIME + "','" + "1" + "','" + MSG_LOG + "','" + mydata.MAC + "','" + UPDATETIME + "')";
+                        command.CommandText = "Insert into record(record_id,id,order_id,transmitmode,phone,message,sendtime,status,msg_log,mac,updatedate) values(null,'" + mydata.ID + "','" + mydata.ORDER_ID + "','" + mydata.TRANSMITMODE + "','" + mydata.PHONE + "','" + mydata.MESSAGE + "','" + mydata.SENDTIME + "','" + "0" + "','" + MSG_LOG + "','" + mydata.MAC + "','" + UPDATETIME + "')";
                         command.ExecuteNonQuery();
 
                         conn.Close();
@@ -874,11 +880,7 @@ namespace MqttServerTest
                     if (TRANSMITMODE == "F")
                     {
 
-                        string dbHost = "119.8.101.21";//資料庫位址
-                        string dbUser = "1234";//資料庫使用者帳號
-                        string dbPass = "1234";//資料庫使用者密碼
-                        string dbName = "sms";//資料庫名稱
-                        string connStr = "server=" + dbHost + ";uid=" + dbUser + ";pwd=" + dbPass + ";database=" + dbName;
+                   
                         MySqlConnection conn = new MySqlConnection(connStr);
                         MySqlCommand command = conn.CreateCommand();
                         conn.Open();
@@ -911,7 +913,7 @@ namespace MqttServerTest
 
                             UPDATETIME = System.DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
                             //command.CommandText = "UPDATE record SET status = '2' WHERE msg_log = '" + mydata.MSG_LOG + "'";
-                            command.CommandText = "Insert into record(record_id,id,order_id,transmitmode,phone,message,sendtime,status,msg_log,mac,updatedate) values(null,'" + mydata.ID + "','" + mydata.ORDER_ID + "','" + mydata.TRANSMITMODE + "','" + strArr[i] + "','" + mydata.MESSAGE + "','" + mydata.SENDTIME + "','" + "1" + "','" + MSG_LOG + "','" + mydata.MAC + "','" + UPDATETIME + "')";
+                            command.CommandText = "Insert into record(record_id,id,order_id,transmitmode,phone,message,sendtime,status,msg_log,mac,updatedate) values(null,'" + mydata.ID + "','" + mydata.ORDER_ID + "','" + mydata.TRANSMITMODE + "','" + strArr[i] + "','" + mydata.MESSAGE + "','" + mydata.SENDTIME + "','" + "0" + "','" + MSG_LOG + "','" + mydata.MAC + "','" + UPDATETIME + "')";
                             command.ExecuteNonQuery();
                         }
 
@@ -989,8 +991,17 @@ namespace MqttServerTest
                     command.CommandText = "UPDATE device SET active_status = 'Y' WHERE device.mac ='" + mydata.READY + "'";
                     command.ExecuteNonQuery();
                     command.ExecuteReader();
-
                     conn.Close();
+
+                    conn = new MySqlConnection(connStr);
+                    command = conn.CreateCommand();
+                    conn.Open();
+                    command.CommandText = "UPDATE record SET status = '3' WHERE mac ='" + mydata.READY + "' AND status = '1'";
+                    command.ExecuteNonQuery();
+                    command.ExecuteReader();
+                    conn.Close();
+
+
                     txtReceiveMessage.AppendText($"{ Environment.NewLine}" + UPDATETIME + "已更新裝置:" + mydata.READY);
 
                 }
@@ -1765,6 +1776,16 @@ namespace MqttServerTest
                 c_u.Add("049B9712CFA4", "049B9712CFA4");
                 c_u.Add("98475F286F24", "98475F286F24");
                 c_u.Add("B07A5F286F24", "B07A5F286F24");
+
+
+                c_u.Add("DC0B61286F24", "DC0B61286F24");
+                c_u.Add("F80F61286F24", "F80F61286F24");
+                c_u.Add("189F9712CFA4", "189F9712CFA4");
+                c_u.Add("F89E9712CFA4", "F89E9712CFA4");
+                c_u.Add("409F9712CFA4", "409F9712CFA4");
+
+                //  c_u.Add("98475F286F24", "98475F286F24");
+                c_u.Add("E8A85F286F24", "E8A85F286F24");
                 /*  for (int i=0; i< LINEUSERID_count; i++)
                  {
                      SQLiteConnection c_dbConnection = new SQLiteConnection("Data Source = database1.db3");
@@ -1823,6 +1844,14 @@ namespace MqttServerTest
                 u_psw.Add("049B9712CFA4", "049B9712CFA4");
                 u_psw.Add("98475F286F24", "98475F286F24");
                 u_psw.Add("B07A5F286F24", "B07A5F286F24");
+
+               u_psw.Add("DC0B61286F24", "DC0B61286F24");
+               u_psw.Add("F80F61286F24", "F80F61286F24");
+               u_psw.Add("189F9712CFA4", "189F9712CFA4");
+               u_psw.Add("F89E9712CFA4", "F89E9712CFA4");
+               u_psw.Add("409F9712CFA4", "409F9712CFA4");
+                //u_psw.Add("98475F286F24", "98475F286F24");
+                u_psw.Add("E8A85F286F24", "E8A85F286F24");
                 /* for (int i = 0; i < LINEUSERID_count; i++)
                  {
                      SQLiteConnection c_dbConnection = new SQLiteConnection("Data Source = database1.db3");
@@ -2385,7 +2414,7 @@ namespace MqttServerTest
             MySqlConnection conn = new MySqlConnection(connStr);
             MySqlCommand command = conn.CreateCommand();
             conn.Open();
-            MySqlDataAdapter hadapter = new MySqlDataAdapter("Select * From record Where status='1'", conn);
+            MySqlDataAdapter hadapter = new MySqlDataAdapter("Select * From record Where status='3'", conn);
 
             DataSet hset = new DataSet();
             hadapter.Fill(hset);
@@ -2403,7 +2432,7 @@ namespace MqttServerTest
                 if (int.Parse(min_comp) >= 1)
                 {
                     string no = hset.Tables[0].Rows[i]["msg_log"].ToString();
-                    sqlite_cmd.CommandText = "UPDATE RECORD SET STATUS='1' WHERE NO='" + no + "'";
+                    sqlite_cmd.CommandText = "UPDATE RECORD SET STATUS='0' WHERE NO='" + no + "'";
                     sqlite_cmd.ExecuteNonQuery();
                 }
 
@@ -2464,7 +2493,7 @@ namespace MqttServerTest
 
         private void timer2_Tick(object sender, EventArgs e)
         {
-            CheckMSG();
+           // CheckMSG();
         }
 
         private void timer3_Tick(object sender, EventArgs e)

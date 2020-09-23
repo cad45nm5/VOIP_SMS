@@ -234,7 +234,7 @@
             this.label1.Location = new System.Drawing.Point(1892, 305);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(86, 17);
+            this.label1.Size = new System.Drawing.Size(174, 33);
             this.label1.TabIndex = 6;
             this.label1.Text = "send mssage";
             // 
@@ -245,7 +245,7 @@
             this.label2.Location = new System.Drawing.Point(1119, 52);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(47, 17);
+            this.label2.Size = new System.Drawing.Size(93, 33);
             this.label2.TabIndex = 7;
             this.label2.Text = "狀態列";
             // 
@@ -265,7 +265,7 @@
             this.label3.Location = new System.Drawing.Point(762, 370);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(63, 16);
+            this.label3.Size = new System.Drawing.Size(126, 30);
             this.label3.TabIndex = 9;
             this.label3.Text = "username";
             // 
@@ -275,7 +275,7 @@
             this.label4.Location = new System.Drawing.Point(795, 409);
             this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(30, 16);
+            this.label4.Size = new System.Drawing.Size(58, 30);
             this.label4.TabIndex = 10;
             this.label4.Text = "psw";
             // 
@@ -318,7 +318,7 @@
             this.label5.Location = new System.Drawing.Point(1892, 221);
             this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(77, 17);
+            this.label5.Size = new System.Drawing.Size(158, 33);
             this.label5.TabIndex = 14;
             this.label5.Text = "public topic";
             // 
@@ -345,7 +345,7 @@
             this.label8.Location = new System.Drawing.Point(205, 31);
             this.label8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(19, 17);
+            this.label8.Size = new System.Drawing.Size(38, 33);
             this.label8.TabIndex = 19;
             this.label8.Text = "ip";
             // 
@@ -366,7 +366,7 @@
             this.label7.Location = new System.Drawing.Point(193, 68);
             this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(34, 17);
+            this.label7.Size = new System.Drawing.Size(66, 33);
             this.label7.TabIndex = 17;
             this.label7.Text = "port";
             // 
@@ -397,7 +397,7 @@
             this.label6.Location = new System.Drawing.Point(775, 331);
             this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(49, 16);
+            this.label6.Size = new System.Drawing.Size(97, 30);
             this.label6.TabIndex = 15;
             this.label6.Text = "clientId";
             // 
@@ -442,7 +442,7 @@
             this.label9.Location = new System.Drawing.Point(2018, 456);
             this.label9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(135, 17);
+            this.label9.Size = new System.Drawing.Size(261, 33);
             this.label9.TabIndex = 20;
             this.label9.Text = "TEL : (02) 8983-9352";
             // 
@@ -452,7 +452,7 @@
             this.label10.Location = new System.Drawing.Point(1529, 443);
             this.label10.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(70, 16);
+            this.label10.Size = new System.Drawing.Size(140, 30);
             this.label10.TabIndex = 21;
             this.label10.Text = "delete user";
             this.label10.Click += new System.EventHandler(this.label10_Click);
@@ -531,7 +531,7 @@
             this.label11.Location = new System.Drawing.Point(67, 55);
             this.label11.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(56, 16);
+            this.label11.Size = new System.Drawing.Size(109, 30);
             this.label11.TabIndex = 27;
             this.label11.Text = "手機號碼";
             // 
@@ -541,7 +541,7 @@
             this.label12.Location = new System.Drawing.Point(67, 147);
             this.label12.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(56, 16);
+            this.label12.Size = new System.Drawing.Size(109, 30);
             this.label12.TabIndex = 28;
             this.label12.Text = "簡訊內容";
             // 
@@ -575,7 +575,7 @@
             this.label13.Location = new System.Drawing.Point(762, 55);
             this.label13.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(80, 16);
+            this.label13.Size = new System.Drawing.Size(157, 30);
             this.label13.TabIndex = 30;
             this.label13.Text = "簡訊傳送筆數";
             // 
@@ -585,7 +585,7 @@
             this.label14.Location = new System.Drawing.Point(738, 97);
             this.label14.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(104, 16);
+            this.label14.Size = new System.Drawing.Size(205, 30);
             this.label14.TabIndex = 31;
             this.label14.Text = "簡訊傳送成功筆數";
             // 
@@ -595,7 +595,7 @@
             this.label15.Location = new System.Drawing.Point(874, 55);
             this.label15.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(15, 16);
+            this.label15.Size = new System.Drawing.Size(27, 30);
             this.label15.TabIndex = 32;
             this.label15.Text = "0";
             // 
@@ -605,7 +605,7 @@
             this.label16.Location = new System.Drawing.Point(874, 97);
             this.label16.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(15, 16);
+            this.label16.Size = new System.Drawing.Size(27, 30);
             this.label16.TabIndex = 33;
             this.label16.Text = "0";
             // 
@@ -615,7 +615,7 @@
             this.label17.Location = new System.Drawing.Point(738, 138);
             this.label17.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(104, 16);
+            this.label17.Size = new System.Drawing.Size(205, 30);
             this.label17.TabIndex = 34;
             this.label17.Text = "簡訊傳送失敗筆數";
             // 
@@ -625,7 +625,7 @@
             this.label18.Location = new System.Drawing.Point(874, 138);
             this.label18.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(15, 16);
+            this.label18.Size = new System.Drawing.Size(27, 30);
             this.label18.TabIndex = 35;
             this.label18.Text = "0";
             // 
@@ -645,7 +645,7 @@
             this.label19.Location = new System.Drawing.Point(738, 180);
             this.label19.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(104, 16);
+            this.label19.Size = new System.Drawing.Size(205, 30);
             this.label19.TabIndex = 37;
             this.label19.Text = "簡訊日期查詢區間";
             // 
@@ -665,7 +665,7 @@
             this.label20.Location = new System.Drawing.Point(848, 225);
             this.label20.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(20, 16);
+            this.label20.Size = new System.Drawing.Size(37, 30);
             this.label20.TabIndex = 39;
             this.label20.Text = "到";
             // 
@@ -793,7 +793,7 @@
             this.label80.Image = ((System.Drawing.Image)(resources.GetObject("label80.Image")));
             this.label80.Location = new System.Drawing.Point(64, 355);
             this.label80.Name = "label80";
-            this.label80.Size = new System.Drawing.Size(25, 23);
+            this.label80.Size = new System.Drawing.Size(47, 44);
             this.label80.TabIndex = 121;
             this.label80.Text = "   ";
             // 
@@ -805,7 +805,7 @@
             this.label79.Image = ((System.Drawing.Image)(resources.GetObject("label79.Image")));
             this.label79.Location = new System.Drawing.Point(258, 262);
             this.label79.Name = "label79";
-            this.label79.Size = new System.Drawing.Size(25, 23);
+            this.label79.Size = new System.Drawing.Size(47, 44);
             this.label79.TabIndex = 120;
             this.label79.Text = "   ";
             // 
@@ -817,7 +817,7 @@
             this.label77.Image = ((System.Drawing.Image)(resources.GetObject("label77.Image")));
             this.label77.Location = new System.Drawing.Point(452, 451);
             this.label77.Name = "label77";
-            this.label77.Size = new System.Drawing.Size(25, 23);
+            this.label77.Size = new System.Drawing.Size(47, 44);
             this.label77.TabIndex = 119;
             this.label77.Text = "   ";
             // 
@@ -829,7 +829,7 @@
             this.label78.Image = ((System.Drawing.Image)(resources.GetObject("label78.Image")));
             this.label78.Location = new System.Drawing.Point(64, 451);
             this.label78.Name = "label78";
-            this.label78.Size = new System.Drawing.Size(25, 23);
+            this.label78.Size = new System.Drawing.Size(47, 44);
             this.label78.TabIndex = 118;
             this.label78.Text = "   ";
             // 
@@ -841,7 +841,7 @@
             this.label76.Image = ((System.Drawing.Image)(resources.GetObject("label76.Image")));
             this.label76.Location = new System.Drawing.Point(258, 451);
             this.label76.Name = "label76";
-            this.label76.Size = new System.Drawing.Size(25, 23);
+            this.label76.Size = new System.Drawing.Size(47, 44);
             this.label76.TabIndex = 117;
             this.label76.Text = "   ";
             // 
@@ -853,7 +853,7 @@
             this.label75.Image = ((System.Drawing.Image)(resources.GetObject("label75.Image")));
             this.label75.Location = new System.Drawing.Point(646, 262);
             this.label75.Name = "label75";
-            this.label75.Size = new System.Drawing.Size(25, 23);
+            this.label75.Size = new System.Drawing.Size(47, 44);
             this.label75.TabIndex = 116;
             this.label75.Text = "   ";
             // 
@@ -865,7 +865,7 @@
             this.label72.Image = ((System.Drawing.Image)(resources.GetObject("label72.Image")));
             this.label72.Location = new System.Drawing.Point(839, 451);
             this.label72.Name = "label72";
-            this.label72.Size = new System.Drawing.Size(25, 23);
+            this.label72.Size = new System.Drawing.Size(47, 44);
             this.label72.TabIndex = 115;
             this.label72.Text = "   ";
             // 
@@ -877,7 +877,7 @@
             this.label73.Image = ((System.Drawing.Image)(resources.GetObject("label73.Image")));
             this.label73.Location = new System.Drawing.Point(839, 355);
             this.label73.Name = "label73";
-            this.label73.Size = new System.Drawing.Size(25, 23);
+            this.label73.Size = new System.Drawing.Size(47, 44);
             this.label73.TabIndex = 114;
             this.label73.Text = "   ";
             // 
@@ -889,7 +889,7 @@
             this.label74.Image = ((System.Drawing.Image)(resources.GetObject("label74.Image")));
             this.label74.Location = new System.Drawing.Point(451, 355);
             this.label74.Name = "label74";
-            this.label74.Size = new System.Drawing.Size(25, 23);
+            this.label74.Size = new System.Drawing.Size(47, 44);
             this.label74.TabIndex = 113;
             this.label74.Text = "   ";
             // 
@@ -901,7 +901,7 @@
             this.label69.Image = ((System.Drawing.Image)(resources.GetObject("label69.Image")));
             this.label69.Location = new System.Drawing.Point(646, 451);
             this.label69.Name = "label69";
-            this.label69.Size = new System.Drawing.Size(25, 23);
+            this.label69.Size = new System.Drawing.Size(47, 44);
             this.label69.TabIndex = 112;
             this.label69.Text = "   ";
             // 
@@ -913,7 +913,7 @@
             this.label66.Image = ((System.Drawing.Image)(resources.GetObject("label66.Image")));
             this.label66.Location = new System.Drawing.Point(840, 262);
             this.label66.Name = "label66";
-            this.label66.Size = new System.Drawing.Size(25, 23);
+            this.label66.Size = new System.Drawing.Size(47, 44);
             this.label66.TabIndex = 112;
             this.label66.Text = "   ";
             // 
@@ -925,7 +925,7 @@
             this.label70.Image = ((System.Drawing.Image)(resources.GetObject("label70.Image")));
             this.label70.Location = new System.Drawing.Point(646, 355);
             this.label70.Name = "label70";
-            this.label70.Size = new System.Drawing.Size(25, 23);
+            this.label70.Size = new System.Drawing.Size(47, 44);
             this.label70.TabIndex = 111;
             this.label70.Text = "   ";
             // 
@@ -937,7 +937,7 @@
             this.label67.Image = ((System.Drawing.Image)(resources.GetObject("label67.Image")));
             this.label67.Location = new System.Drawing.Point(452, 262);
             this.label67.Name = "label67";
-            this.label67.Size = new System.Drawing.Size(25, 23);
+            this.label67.Size = new System.Drawing.Size(47, 44);
             this.label67.TabIndex = 111;
             this.label67.Text = "   ";
             // 
@@ -949,7 +949,7 @@
             this.label71.Image = ((System.Drawing.Image)(resources.GetObject("label71.Image")));
             this.label71.Location = new System.Drawing.Point(258, 355);
             this.label71.Name = "label71";
-            this.label71.Size = new System.Drawing.Size(25, 23);
+            this.label71.Size = new System.Drawing.Size(47, 44);
             this.label71.TabIndex = 110;
             this.label71.Text = "   ";
             // 
@@ -961,7 +961,7 @@
             this.label68.Image = ((System.Drawing.Image)(resources.GetObject("label68.Image")));
             this.label68.Location = new System.Drawing.Point(64, 262);
             this.label68.Name = "label68";
-            this.label68.Size = new System.Drawing.Size(25, 23);
+            this.label68.Size = new System.Drawing.Size(47, 44);
             this.label68.TabIndex = 110;
             this.label68.Text = "   ";
             // 
@@ -973,7 +973,7 @@
             this.label65.Image = ((System.Drawing.Image)(resources.GetObject("label65.Image")));
             this.label65.Location = new System.Drawing.Point(840, 167);
             this.label65.Name = "label65";
-            this.label65.Size = new System.Drawing.Size(25, 23);
+            this.label65.Size = new System.Drawing.Size(47, 44);
             this.label65.TabIndex = 109;
             this.label65.Text = "   ";
             // 
@@ -985,7 +985,7 @@
             this.label63.Image = ((System.Drawing.Image)(resources.GetObject("label63.Image")));
             this.label63.Location = new System.Drawing.Point(646, 167);
             this.label63.Name = "label63";
-            this.label63.Size = new System.Drawing.Size(25, 23);
+            this.label63.Size = new System.Drawing.Size(47, 44);
             this.label63.TabIndex = 108;
             this.label63.Text = "   ";
             // 
@@ -997,7 +997,7 @@
             this.label64.Image = ((System.Drawing.Image)(resources.GetObject("label64.Image")));
             this.label64.Location = new System.Drawing.Point(452, 167);
             this.label64.Name = "label64";
-            this.label64.Size = new System.Drawing.Size(25, 23);
+            this.label64.Size = new System.Drawing.Size(47, 44);
             this.label64.TabIndex = 107;
             this.label64.Text = "   ";
             // 
@@ -1009,7 +1009,7 @@
             this.label62.Image = ((System.Drawing.Image)(resources.GetObject("label62.Image")));
             this.label62.Location = new System.Drawing.Point(258, 167);
             this.label62.Name = "label62";
-            this.label62.Size = new System.Drawing.Size(25, 23);
+            this.label62.Size = new System.Drawing.Size(47, 44);
             this.label62.TabIndex = 106;
             this.label62.Text = "   ";
             // 
@@ -1021,7 +1021,7 @@
             this.label61.Image = ((System.Drawing.Image)(resources.GetObject("label61.Image")));
             this.label61.Location = new System.Drawing.Point(64, 167);
             this.label61.Name = "label61";
-            this.label61.Size = new System.Drawing.Size(25, 23);
+            this.label61.Size = new System.Drawing.Size(47, 44);
             this.label61.TabIndex = 105;
             this.label61.Text = "   ";
             // 
@@ -1056,7 +1056,7 @@
             this.label51.Image = global::MqttServerTest.Properties.Resources.red2;
             this.label51.Location = new System.Drawing.Point(841, 425);
             this.label51.Name = "label51";
-            this.label51.Size = new System.Drawing.Size(17, 16);
+            this.label51.Size = new System.Drawing.Size(31, 30);
             this.label51.TabIndex = 102;
             this.label51.Text = "   ";
             // 
@@ -1067,7 +1067,7 @@
             this.label52.Image = global::MqttServerTest.Properties.Resources.green2;
             this.label52.Location = new System.Drawing.Point(841, 398);
             this.label52.Name = "label52";
-            this.label52.Size = new System.Drawing.Size(17, 16);
+            this.label52.Size = new System.Drawing.Size(31, 30);
             this.label52.TabIndex = 101;
             this.label52.Text = "   ";
             // 
@@ -1078,7 +1078,7 @@
             this.label53.Image = global::MqttServerTest.Properties.Resources.red2;
             this.label53.Location = new System.Drawing.Point(647, 425);
             this.label53.Name = "label53";
-            this.label53.Size = new System.Drawing.Size(17, 16);
+            this.label53.Size = new System.Drawing.Size(31, 30);
             this.label53.TabIndex = 100;
             this.label53.Text = "   ";
             // 
@@ -1089,7 +1089,7 @@
             this.label54.Image = global::MqttServerTest.Properties.Resources.green2;
             this.label54.Location = new System.Drawing.Point(647, 398);
             this.label54.Name = "label54";
-            this.label54.Size = new System.Drawing.Size(17, 16);
+            this.label54.Size = new System.Drawing.Size(31, 30);
             this.label54.TabIndex = 99;
             this.label54.Text = "   ";
             // 
@@ -1100,7 +1100,7 @@
             this.label55.Image = global::MqttServerTest.Properties.Resources.red2;
             this.label55.Location = new System.Drawing.Point(453, 425);
             this.label55.Name = "label55";
-            this.label55.Size = new System.Drawing.Size(17, 16);
+            this.label55.Size = new System.Drawing.Size(31, 30);
             this.label55.TabIndex = 98;
             this.label55.Text = "   ";
             // 
@@ -1111,7 +1111,7 @@
             this.label56.Image = global::MqttServerTest.Properties.Resources.green2;
             this.label56.Location = new System.Drawing.Point(453, 398);
             this.label56.Name = "label56";
-            this.label56.Size = new System.Drawing.Size(17, 16);
+            this.label56.Size = new System.Drawing.Size(31, 30);
             this.label56.TabIndex = 97;
             this.label56.Text = "   ";
             // 
@@ -1122,7 +1122,7 @@
             this.label57.Image = global::MqttServerTest.Properties.Resources.red2;
             this.label57.Location = new System.Drawing.Point(259, 425);
             this.label57.Name = "label57";
-            this.label57.Size = new System.Drawing.Size(17, 16);
+            this.label57.Size = new System.Drawing.Size(31, 30);
             this.label57.TabIndex = 96;
             this.label57.Text = "   ";
             // 
@@ -1133,7 +1133,7 @@
             this.label58.Image = global::MqttServerTest.Properties.Resources.green2;
             this.label58.Location = new System.Drawing.Point(259, 398);
             this.label58.Name = "label58";
-            this.label58.Size = new System.Drawing.Size(17, 16);
+            this.label58.Size = new System.Drawing.Size(31, 30);
             this.label58.TabIndex = 95;
             this.label58.Text = "   ";
             // 
@@ -1144,7 +1144,7 @@
             this.label59.Image = global::MqttServerTest.Properties.Resources.red2;
             this.label59.Location = new System.Drawing.Point(65, 425);
             this.label59.Name = "label59";
-            this.label59.Size = new System.Drawing.Size(17, 16);
+            this.label59.Size = new System.Drawing.Size(31, 30);
             this.label59.TabIndex = 94;
             this.label59.Text = "   ";
             // 
@@ -1155,7 +1155,7 @@
             this.label60.Image = global::MqttServerTest.Properties.Resources.green2;
             this.label60.Location = new System.Drawing.Point(65, 398);
             this.label60.Name = "label60";
-            this.label60.Size = new System.Drawing.Size(17, 16);
+            this.label60.Size = new System.Drawing.Size(31, 30);
             this.label60.TabIndex = 93;
             this.label60.Text = "   ";
             // 
@@ -1166,7 +1166,7 @@
             this.label41.Image = global::MqttServerTest.Properties.Resources.red2;
             this.label41.Location = new System.Drawing.Point(841, 331);
             this.label41.Name = "label41";
-            this.label41.Size = new System.Drawing.Size(17, 16);
+            this.label41.Size = new System.Drawing.Size(31, 30);
             this.label41.TabIndex = 92;
             this.label41.Text = "   ";
             // 
@@ -1177,7 +1177,7 @@
             this.label42.Image = global::MqttServerTest.Properties.Resources.green2;
             this.label42.Location = new System.Drawing.Point(841, 304);
             this.label42.Name = "label42";
-            this.label42.Size = new System.Drawing.Size(17, 16);
+            this.label42.Size = new System.Drawing.Size(31, 30);
             this.label42.TabIndex = 91;
             this.label42.Text = "   ";
             // 
@@ -1188,7 +1188,7 @@
             this.label43.Image = global::MqttServerTest.Properties.Resources.red2;
             this.label43.Location = new System.Drawing.Point(647, 331);
             this.label43.Name = "label43";
-            this.label43.Size = new System.Drawing.Size(17, 16);
+            this.label43.Size = new System.Drawing.Size(31, 30);
             this.label43.TabIndex = 90;
             this.label43.Text = "   ";
             // 
@@ -1199,7 +1199,7 @@
             this.label44.Image = global::MqttServerTest.Properties.Resources.green2;
             this.label44.Location = new System.Drawing.Point(647, 304);
             this.label44.Name = "label44";
-            this.label44.Size = new System.Drawing.Size(17, 16);
+            this.label44.Size = new System.Drawing.Size(31, 30);
             this.label44.TabIndex = 89;
             this.label44.Text = "   ";
             // 
@@ -1210,7 +1210,7 @@
             this.label45.Image = global::MqttServerTest.Properties.Resources.red2;
             this.label45.Location = new System.Drawing.Point(453, 331);
             this.label45.Name = "label45";
-            this.label45.Size = new System.Drawing.Size(17, 16);
+            this.label45.Size = new System.Drawing.Size(31, 30);
             this.label45.TabIndex = 88;
             this.label45.Text = "   ";
             // 
@@ -1221,7 +1221,7 @@
             this.label46.Image = global::MqttServerTest.Properties.Resources.green2;
             this.label46.Location = new System.Drawing.Point(453, 304);
             this.label46.Name = "label46";
-            this.label46.Size = new System.Drawing.Size(17, 16);
+            this.label46.Size = new System.Drawing.Size(31, 30);
             this.label46.TabIndex = 87;
             this.label46.Text = "   ";
             // 
@@ -1232,7 +1232,7 @@
             this.label47.Image = global::MqttServerTest.Properties.Resources.red2;
             this.label47.Location = new System.Drawing.Point(259, 331);
             this.label47.Name = "label47";
-            this.label47.Size = new System.Drawing.Size(17, 16);
+            this.label47.Size = new System.Drawing.Size(31, 30);
             this.label47.TabIndex = 86;
             this.label47.Text = "   ";
             // 
@@ -1243,7 +1243,7 @@
             this.label48.Image = global::MqttServerTest.Properties.Resources.green2;
             this.label48.Location = new System.Drawing.Point(259, 304);
             this.label48.Name = "label48";
-            this.label48.Size = new System.Drawing.Size(17, 16);
+            this.label48.Size = new System.Drawing.Size(31, 30);
             this.label48.TabIndex = 85;
             this.label48.Text = "   ";
             // 
@@ -1254,7 +1254,7 @@
             this.label49.Image = global::MqttServerTest.Properties.Resources.red2;
             this.label49.Location = new System.Drawing.Point(65, 331);
             this.label49.Name = "label49";
-            this.label49.Size = new System.Drawing.Size(17, 16);
+            this.label49.Size = new System.Drawing.Size(31, 30);
             this.label49.TabIndex = 84;
             this.label49.Text = "   ";
             // 
@@ -1265,7 +1265,7 @@
             this.label50.Image = global::MqttServerTest.Properties.Resources.green2;
             this.label50.Location = new System.Drawing.Point(65, 304);
             this.label50.Name = "label50";
-            this.label50.Size = new System.Drawing.Size(17, 16);
+            this.label50.Size = new System.Drawing.Size(31, 30);
             this.label50.TabIndex = 83;
             this.label50.Text = "   ";
             // 
@@ -1276,7 +1276,7 @@
             this.label31.Image = global::MqttServerTest.Properties.Resources.red2;
             this.label31.Location = new System.Drawing.Point(841, 238);
             this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(17, 16);
+            this.label31.Size = new System.Drawing.Size(31, 30);
             this.label31.TabIndex = 82;
             this.label31.Text = "   ";
             // 
@@ -1287,7 +1287,7 @@
             this.label32.Image = global::MqttServerTest.Properties.Resources.green2;
             this.label32.Location = new System.Drawing.Point(841, 211);
             this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(17, 16);
+            this.label32.Size = new System.Drawing.Size(31, 30);
             this.label32.TabIndex = 81;
             this.label32.Text = "   ";
             // 
@@ -1298,7 +1298,7 @@
             this.label33.Image = global::MqttServerTest.Properties.Resources.red2;
             this.label33.Location = new System.Drawing.Point(647, 238);
             this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(17, 16);
+            this.label33.Size = new System.Drawing.Size(31, 30);
             this.label33.TabIndex = 80;
             this.label33.Text = "   ";
             // 
@@ -1309,7 +1309,7 @@
             this.label34.Image = global::MqttServerTest.Properties.Resources.green2;
             this.label34.Location = new System.Drawing.Point(647, 211);
             this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(17, 16);
+            this.label34.Size = new System.Drawing.Size(31, 30);
             this.label34.TabIndex = 79;
             this.label34.Text = "   ";
             // 
@@ -1320,7 +1320,7 @@
             this.label35.Image = global::MqttServerTest.Properties.Resources.red2;
             this.label35.Location = new System.Drawing.Point(453, 238);
             this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(17, 16);
+            this.label35.Size = new System.Drawing.Size(31, 30);
             this.label35.TabIndex = 78;
             this.label35.Text = "   ";
             // 
@@ -1331,7 +1331,7 @@
             this.label36.Image = global::MqttServerTest.Properties.Resources.green2;
             this.label36.Location = new System.Drawing.Point(453, 211);
             this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(17, 16);
+            this.label36.Size = new System.Drawing.Size(31, 30);
             this.label36.TabIndex = 77;
             this.label36.Text = "   ";
             // 
@@ -1342,7 +1342,7 @@
             this.label37.Image = global::MqttServerTest.Properties.Resources.red2;
             this.label37.Location = new System.Drawing.Point(259, 238);
             this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size(17, 16);
+            this.label37.Size = new System.Drawing.Size(31, 30);
             this.label37.TabIndex = 76;
             this.label37.Text = "   ";
             // 
@@ -1353,7 +1353,7 @@
             this.label38.Image = global::MqttServerTest.Properties.Resources.green2;
             this.label38.Location = new System.Drawing.Point(259, 211);
             this.label38.Name = "label38";
-            this.label38.Size = new System.Drawing.Size(17, 16);
+            this.label38.Size = new System.Drawing.Size(31, 30);
             this.label38.TabIndex = 75;
             this.label38.Text = "   ";
             // 
@@ -1364,7 +1364,7 @@
             this.label39.Image = global::MqttServerTest.Properties.Resources.red2;
             this.label39.Location = new System.Drawing.Point(65, 238);
             this.label39.Name = "label39";
-            this.label39.Size = new System.Drawing.Size(17, 16);
+            this.label39.Size = new System.Drawing.Size(31, 30);
             this.label39.TabIndex = 74;
             this.label39.Text = "   ";
             // 
@@ -1375,7 +1375,7 @@
             this.label40.Image = global::MqttServerTest.Properties.Resources.green2;
             this.label40.Location = new System.Drawing.Point(65, 211);
             this.label40.Name = "label40";
-            this.label40.Size = new System.Drawing.Size(17, 16);
+            this.label40.Size = new System.Drawing.Size(31, 30);
             this.label40.TabIndex = 73;
             this.label40.Text = "   ";
             // 
@@ -1386,7 +1386,7 @@
             this.label29.Image = global::MqttServerTest.Properties.Resources.red2;
             this.label29.Location = new System.Drawing.Point(841, 143);
             this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(17, 16);
+            this.label29.Size = new System.Drawing.Size(31, 30);
             this.label29.TabIndex = 72;
             this.label29.Text = "   ";
             // 
@@ -1397,7 +1397,7 @@
             this.label30.Image = global::MqttServerTest.Properties.Resources.green2;
             this.label30.Location = new System.Drawing.Point(841, 116);
             this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(17, 16);
+            this.label30.Size = new System.Drawing.Size(31, 30);
             this.label30.TabIndex = 71;
             this.label30.Text = "   ";
             // 
@@ -1408,7 +1408,7 @@
             this.label27.Image = global::MqttServerTest.Properties.Resources.red2;
             this.label27.Location = new System.Drawing.Point(647, 143);
             this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(17, 16);
+            this.label27.Size = new System.Drawing.Size(31, 30);
             this.label27.TabIndex = 70;
             this.label27.Text = "   ";
             // 
@@ -1419,7 +1419,7 @@
             this.label28.Image = global::MqttServerTest.Properties.Resources.green2;
             this.label28.Location = new System.Drawing.Point(647, 116);
             this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(17, 16);
+            this.label28.Size = new System.Drawing.Size(31, 30);
             this.label28.TabIndex = 69;
             this.label28.Text = "   ";
             // 
@@ -1430,7 +1430,7 @@
             this.label25.Image = global::MqttServerTest.Properties.Resources.red2;
             this.label25.Location = new System.Drawing.Point(453, 143);
             this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(17, 16);
+            this.label25.Size = new System.Drawing.Size(31, 30);
             this.label25.TabIndex = 68;
             this.label25.Text = "   ";
             // 
@@ -1441,7 +1441,7 @@
             this.label26.Image = global::MqttServerTest.Properties.Resources.green2;
             this.label26.Location = new System.Drawing.Point(453, 116);
             this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(17, 16);
+            this.label26.Size = new System.Drawing.Size(31, 30);
             this.label26.TabIndex = 67;
             this.label26.Text = "   ";
             // 
@@ -1452,7 +1452,7 @@
             this.label23.Image = global::MqttServerTest.Properties.Resources.red2;
             this.label23.Location = new System.Drawing.Point(259, 143);
             this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(17, 16);
+            this.label23.Size = new System.Drawing.Size(31, 30);
             this.label23.TabIndex = 66;
             this.label23.Text = "   ";
             // 
@@ -1463,7 +1463,7 @@
             this.label24.Image = global::MqttServerTest.Properties.Resources.green2;
             this.label24.Location = new System.Drawing.Point(259, 116);
             this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(17, 16);
+            this.label24.Size = new System.Drawing.Size(31, 30);
             this.label24.TabIndex = 65;
             this.label24.Text = "   ";
             // 
@@ -1474,7 +1474,7 @@
             this.label22.Image = global::MqttServerTest.Properties.Resources.red2;
             this.label22.Location = new System.Drawing.Point(65, 143);
             this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(17, 16);
+            this.label22.Size = new System.Drawing.Size(31, 30);
             this.label22.TabIndex = 64;
             this.label22.Text = "   ";
             // 
@@ -1485,7 +1485,7 @@
             this.label21.Image = global::MqttServerTest.Properties.Resources.green2;
             this.label21.Location = new System.Drawing.Point(65, 116);
             this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(17, 16);
+            this.label21.Size = new System.Drawing.Size(31, 30);
             this.label21.TabIndex = 63;
             this.label21.Text = "   ";
             // 
@@ -1746,7 +1746,7 @@
             this.label81.Location = new System.Drawing.Point(381, 548);
             this.label81.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label81.Name = "label81";
-            this.label81.Size = new System.Drawing.Size(56, 16);
+            this.label81.Size = new System.Drawing.Size(109, 30);
             this.label81.TabIndex = 44;
             this.label81.Text = "時間設定";
             // 
@@ -1784,7 +1784,7 @@
             // 
             // timer3
             // 
-            this.timer3.Interval = 180000;
+            this.timer3.Interval = 15000;
             this.timer3.Tick += new System.EventHandler(this.timer3_Tick);
             // 
             // button32
@@ -1801,13 +1801,13 @@
             // 
             this.textBox7.Location = new System.Drawing.Point(155, 13);
             this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(100, 23);
+            this.textBox7.Size = new System.Drawing.Size(100, 39);
             this.textBox7.TabIndex = 48;
             this.textBox7.TextChanged += new System.EventHandler(this.textBox7_TextChanged);
             // 
             // lineiot_0424_1630
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(14F, 30F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(1484, 607);
